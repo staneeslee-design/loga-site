@@ -1,0 +1,72 @@
+[
+ {
+  "lt": {
+   "q": "Ar dalys originalios?",
+   "a": "Taip. Visos dalys nuimamos nuo ardomų automobilių — tai originalios gamintojo dalys, ne kopijos."
+  },
+  "en": {
+   "q": "Are the parts original?",
+   "a": "Yes. All parts come off dismantled cars — they are original manufacturer parts, not copies."
+  },
+  "ru": {
+   "q": "Детали оригинальные?",
+   "a": "Да. Все детали снимаются с разбираемых авто — это оригинальные детали производителя, не копии."
+  }
+ },
+ {
+  "lt": {
+   "q": "Kaip sužinoti, ar detalė tiks mano automobiliui?",
+   "a": "Atsiųskite VIN kodą. Pagal jį patikriname detalės kodą ir suderiname su donoru prieš išsiunčiant."
+  },
+  "en": {
+   "q": "How do I know the part fits my car?",
+   "a": "Send us your VIN. We use it to check the part number and match it with the donor car before shipping."
+  },
+  "ru": {
+   "q": "Как узнать, подойдёт ли деталь к моему авто?",
+   "a": "Пришлите VIN. По нему проверим номер детали и сверим с донором перед отправкой."
+  }
+ },
+ {
+  "lt": {
+   "q": "Ar suteikiate garantiją?",
+   "a": "Varikliams suteikiame garantiją. Sąlygos: [GARANTIJOS TRUKMĖ IR SĄLYGOS]."
+  },
+  "en": {
+   "q": "Do you give a warranty?",
+   "a": "Engines come with a warranty. Terms: [WARRANTY PERIOD AND TERMS]."
+  },
+  "ru": {
+   "q": "Даёте гарантию?",
+   "a": "На двигатели даём гарантию. Условия: [СРОК И УСЛОВИЯ ГАРАНТИИ]."
+  }
+ },
+ {
+  "lt": {
+   "q": "Ar siunčiate į kitas šalis?",
+   "a": "Taip, pristatome visoje Lietuvoje ir Europoje. Siuntimo kaina priklauso nuo detalės dydžio ir šalies."
+  },
+  "en": {
+   "q": "Do you ship to other countries?",
+   "a": "Yes, we deliver across Lithuania and Europe. Shipping cost depends on the part size and country."
+  },
+  "ru": {
+   "q": "Отправляете в другие страны?",
+   "a": "Да, доставляем по Литве и Европе. Стоимость зависит от размера детали и страны."
+  }
+ },
+ {
+  "lt": {
+   "q": "Ar galima atsiimti pačiam?",
+   "a": "Taip — Fabriko g. 12, Lentvaris. Dirbame I–V 08:00–18:00, VI 09:00–14:00."
+  },
+  "en": {
+   "q": "Can I pick it up myself?",
+   "a": "Yes — Fabriko g. 12, Lentvaris. Open Mon–Fri 08:00–18:00, Sat 09:00–14:00."
+  },
+  "ru": {
+   "q": "Можно забрать самому?",
+   "a": "Да — Fabriko g. 12, Лентварис. Работаем Пн–Пт 08:00–18:00, Сб 09:00–14:00."
+  }
+ }
+]

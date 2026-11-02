@@ -1,0 +1,2165 @@
+[
+ {
+  "source": "Ardomi automobiliai",
+  "lt": "Ardomi automobiliai",
+  "en": "Cars for parts",
+  "ru": "Авто на разборке",
+  "group": "Bendri"
+ },
+ {
+  "source": "Varikliai",
+  "lt": "Varikliai",
+  "en": "Engines",
+  "ru": "Двигатели",
+  "group": "Bendri"
+ },
+ {
+  "source": "Parduoti auto",
+  "lt": "Parduoti auto",
+  "en": "Sell your car",
+  "ru": "Продать авто",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "DUK",
+  "lt": "DUK",
+  "en": "FAQ",
+  "ru": "Вопросы",
+  "group": "Bendri"
+ },
+ {
+  "source": "Kontaktai",
+  "lt": "Kontaktai",
+  "en": "Contacts",
+  "ru": "Контакты",
+  "group": "Bendri"
+ },
+ {
+  "source": "Vilnius · Pristatymas Lietuvoje ir Europoje",
+  "lt": "Vilnius · Pristatymas Lietuvoje ir Europoje",
+  "en": "Vilnius · Delivery across Lithuania and Europe",
+  "ru": "Вильнюс · Доставка по Литве и Европе",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Originalios dalys",
+  "lt": "Originalios dalys",
+  "en": "Original parts",
+  "ru": "Оригинальные запчасти",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "pagal jūsų",
+  "lt": "pagal jūsų",
+  "en": "matched to your",
+  "ru": "по вашему",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Tūkstančiai originalių naudotų dalių ir variklių iš ardomų automobilių Vilniuje. Atsiųskite VIN — patikrinsime, ar detalė tinka, ir pasakysime kainą.",
+  "lt": "Tūkstančiai originalių naudotų dalių ir variklių iš ardomų automobilių Vilniuje. Atsiųskite VIN — patikrinsime, ar detalė tinka, ir pasakysime kainą.",
+  "en": "Thousands of original used parts and engines from cars dismantled in Vilnius. Send us your VIN — we will check that the part fits and tell you the price.",
+  "ru": "Тысячи оригинальных б/у запчастей и двигателей с разбираемых авто в Вильнюсе. Пришлите VIN — проверим, подходит ли деталь, и назовём цену.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kiekvieną dalį patikriname prieš išduodant",
+  "lt": "Kiekvieną dalį patikriname prieš išduodant",
+  "en": "Every part is checked before it leaves us",
+  "ru": "Каждую деталь проверяем перед выдачей",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Suderiname pagal VIN — tiks iš pirmo karto",
+  "lt": "Suderiname pagal VIN — tiks iš pirmo karto",
+  "en": "Matched by VIN — fits the first time",
+  "ru": "Подбираем по VIN — подойдёт с первого раза",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Siunčiame visoje Lietuvoje ir Europoje",
+  "lt": "Siunčiame visoje Lietuvoje ir Europoje",
+  "en": "We ship across Lithuania and Europe",
+  "ru": "Отправляем по всей Литве и Европе",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pavarų dėžės",
+  "lt": "Pavarų dėžės",
+  "en": "Gearboxes",
+  "ru": "Коробки передач",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kėbulo dalys",
+  "lt": "Kėbulo dalys",
+  "en": "Body parts",
+  "ru": "Кузовные детали",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Žibintai",
+  "lt": "Žibintai",
+  "en": "Lights",
+  "ru": "Фары",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Salono dalys",
+  "lt": "Salono dalys",
+  "en": "Interior parts",
+  "ru": "Детали салона",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Elektronika",
+  "lt": "Elektronika",
+  "en": "Electronics",
+  "ru": "Электроника",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Važiuoklė",
+  "lt": "Važiuoklė",
+  "en": "Suspension",
+  "ru": "Ходовая",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ratlankiai",
+  "lt": "Ratlankiai",
+  "en": "Wheels",
+  "ru": "Диски",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Turbinos",
+  "lt": "Turbinos",
+  "en": "Turbochargers",
+  "ru": "Турбины",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Stabdžių sistema",
+  "lt": "Stabdžių sistema",
+  "en": "Brake system",
+  "ru": "Тормозная система",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Šiuo metu ardomi",
+  "lt": "Šiuo metu ardomi",
+  "en": "Now dismantling",
+  "ru": "Сейчас разбираем",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Naujai ardomi automobiliai.",
+  "lt": "Naujai ardomi automobiliai.",
+  "en": "Newly dismantled cars.",
+  "ru": "Новые авто на разборке.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasirinkite automobilį ir užklauskite dalį vienu paspaudimu — atsakysime, ar ji dar yra.",
+  "lt": "Pasirinkite automobilį ir užklauskite dalį vienu paspaudimu — atsakysime, ar ji dar yra.",
+  "en": "Pick a car and ask for a part in one click — we will tell you if it is still available.",
+  "ru": "Выберите авто и запросите деталь в один клик — ответим, есть ли она ещё.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Visi ardomi automobiliai →",
+  "lt": "Visi ardomi automobiliai →",
+  "en": "All dismantled cars →",
+  "ru": "Все авто на разборке →",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Naujai ardomas",
+  "lt": "Naujai ardomas",
+  "en": "Newly dismantled",
+  "ru": "Новое на разборке",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Naujas",
+  "lt": "Naujas",
+  "en": "New",
+  "ru": "Новое",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Užklausti dalį →",
+  "lt": "Užklausti dalį →",
+  "en": "Ask for a part →",
+  "ru": "Запросить деталь →",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Užklausti dalį",
+  "lt": "Užklausti dalį",
+  "en": "Ask for a part",
+  "ru": "Запросить деталь",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kaip užsakyti",
+  "lt": "Kaip užsakyti",
+  "en": "How to order",
+  "ru": "Как заказать",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nuo užklausos iki detalės — trys žingsniai.",
+  "lt": "Nuo užklausos iki detalės — trys žingsniai.",
+  "en": "From request to part — three steps.",
+  "ru": "От запроса до детали — три шага.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nereikia važiuoti ir ieškoti po aikšteles. Parašykite — detalę surasime, patikrinsime ir paruošime jums.",
+  "lt": "Nereikia važiuoti ir ieškoti po aikšteles. Parašykite — detalę surasime, patikrinsime ir paruošime jums.",
+  "en": "No need to drive around yards. Message us — we will find the part, check it and get it ready for you.",
+  "ru": "Не нужно ездить по разборкам. Напишите — найдём деталь, проверим и подготовим для вас.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Susisiekite dėl detalės",
+  "lt": "Susisiekite dėl detalės",
+  "en": "Contact us about a part",
+  "ru": "Свяжитесь с нами по поводу детали",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Paskambinkite, parašykite arba susisiekite per Viber ar WhatsApp.",
+  "lt": "Paskambinkite, parašykite arba susisiekite per Viber ar WhatsApp.",
+  "en": "Call, write or reach us via Viber or WhatsApp.",
+  "ru": "Позвоните, напишите или свяжитесь через Viber или WhatsApp.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Greitas atsakymas",
+  "lt": "Greitas atsakymas",
+  "en": "Fast reply",
+  "ru": "Быстрый ответ",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Patikriname ir pasiūlome",
+  "lt": "Patikriname ir pasiūlome",
+  "en": "We check and quote",
+  "ru": "Проверяем и предлагаем",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Randame detalę mūsų sandėlyje, patikriname būklę ir suderiname pagal VIN.",
+  "lt": "Randame detalę mūsų sandėlyje, patikriname būklę ir suderiname pagal VIN.",
+  "en": "We find the part in our warehouse, check its condition and match it by VIN.",
+  "ru": "Находим деталь на нашем складе, проверяем состояние и подбираем по VIN.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Lietuva ir Europa",
+  "lt": "Lietuva ir Europa",
+  "en": "Lithuania and Europe",
+  "ru": "Литва и Европа",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Atsiimate arba išsiunčiame",
+  "lt": "Atsiimate arba išsiunčiame",
+  "en": "Pick up or we ship",
+  "ru": "Самовывоз или доставка",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Atsiimkite Fabriko g. 12, Lentvaryje, arba siunčiame kurjeriu visoje Lietuvoje ir Europoje.",
+  "lt": "Atsiimkite Fabriko g. 12, Lentvaryje, arba siunčiame kurjeriu visoje Lietuvoje ir Europoje.",
+  "en": "Pick it up at Fabriko g. 12, Lentvaris, or we ship by courier across Lithuania and Europe.",
+  "ru": "Заберите по адресу Fabriko g. 12, Лентварис, или отправим курьером по всей Литве и Европе.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Superkame automobilius",
+  "lt": "Superkame automobilius",
+  "en": "We buy cars",
+  "ru": "Выкупаем автомобили",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Parduokite automobilį be ilgų derybų.",
+  "lt": "Parduokite automobilį be ilgų derybų.",
+  "en": "Sell your car without long haggling.",
+  "ru": "Продайте авто без долгих торгов.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Įvertinsime tą pačią darbo dieną. Pasiimame visoje Lietuvoje — važiuojantį, daužtą ar nevažiuojantį.",
+  "lt": "Įvertinsime tą pačią darbo dieną. Pasiimame visoje Lietuvoje — važiuojantį, daužtą ar nevažiuojantį.",
+  "en": "We value it the same working day and collect anywhere in Lithuania — running, damaged or not running.",
+  "ru": "Оценим в тот же рабочий день. Заберём по всей Литве — на ходу, битый или не на ходу.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasiūlymas per 1 darbo dieną",
+  "lt": "Pasiūlymas per 1 darbo dieną",
+  "en": "Offer within 1 working day",
+  "ru": "Предложение за 1 рабочий день",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasiėmimas visoje Lietuvoje",
+  "lt": "Pasiėmimas visoje Lietuvoje",
+  "en": "Collection anywhere in Lithuania",
+  "ru": "Забираем по всей Литве",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Aiški kaina, be spaudimo",
+  "lt": "Aiški kaina, be spaudimo",
+  "en": "Clear price, no pressure",
+  "ru": "Честная цена, без давления",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasiūlyti automobilį →",
+  "lt": "Pasiūlyti automobilį →",
+  "en": "Offer your car →",
+  "ru": "Предложить авто →",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Dažnai klausiate.",
+  "lt": "Dažnai klausiate.",
+  "en": "Frequently asked.",
+  "ru": "Частые вопросы.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Neradote atsakymo? Paskambinkite — atsakysime per kelias minutes.",
+  "lt": "Neradote atsakymo? Paskambinkite — atsakysime per kelias minutes.",
+  "en": "Didn't find an answer? Call us — we will answer in a few minutes.",
+  "ru": "Не нашли ответ? Позвоните — ответим за пару минут.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ar dalys originalios?",
+  "lt": "Ar dalys originalios?",
+  "en": "Are the parts original?",
+  "ru": "Детали оригинальные?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Taip. Visos dalys nuimamos nuo ardomų automobilių — tai originalios gamintojo dalys, ne kopijos.",
+  "lt": "Taip. Visos dalys nuimamos nuo ardomų automobilių — tai originalios gamintojo dalys, ne kopijos.",
+  "en": "Yes. All parts come off dismantled cars — they are original manufacturer parts, not copies.",
+  "ru": "Да. Все детали снимаются с разбираемых авто — это оригинальные детали производителя, не копии.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kaip sužinoti, ar detalė tiks mano automobiliui?",
+  "lt": "Kaip sužinoti, ar detalė tiks mano automobiliui?",
+  "en": "How do I know the part fits my car?",
+  "ru": "Как узнать, подойдёт ли деталь к моему авто?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Atsiųskite VIN kodą. Pagal jį patikriname detalės kodą ir suderiname su donoru prieš išsiunčiant.",
+  "lt": "Atsiųskite VIN kodą. Pagal jį patikriname detalės kodą ir suderiname su donoru prieš išsiunčiant.",
+  "en": "Send us your VIN. We use it to check the part number and match it with the donor car before shipping.",
+  "ru": "Пришлите VIN. По нему проверим номер детали и сверим с донором перед отправкой.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ar suteikiate garantiją?",
+  "lt": "Ar suteikiate garantiją?",
+  "en": "Do you give a warranty?",
+  "ru": "Даёте гарантию?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Varikliams suteikiame garantiją. Sąlygos: [GARANTIJOS TRUKMĖ IR SĄLYGOS].",
+  "lt": "Varikliams suteikiame garantiją. Sąlygos: [GARANTIJOS TRUKMĖ IR SĄLYGOS].",
+  "en": "Engines come with a warranty. Terms: [WARRANTY PERIOD AND TERMS].",
+  "ru": "На двигатели даём гарантию. Условия: [СРОК И УСЛОВИЯ ГАРАНТИИ].",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ar siunčiate į kitas šalis?",
+  "lt": "Ar siunčiate į kitas šalis?",
+  "en": "Do you ship to other countries?",
+  "ru": "Отправляете в другие страны?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Taip, pristatome visoje Lietuvoje ir Europoje. Siuntimo kaina priklauso nuo detalės dydžio ir šalies.",
+  "lt": "Taip, pristatome visoje Lietuvoje ir Europoje. Siuntimo kaina priklauso nuo detalės dydžio ir šalies.",
+  "en": "Yes, we deliver across Lithuania and Europe. Shipping cost depends on the part size and country.",
+  "ru": "Да, доставляем по Литве и Европе. Стоимость зависит от размера детали и страны.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ar galima atsiimti pačiam?",
+  "lt": "Ar galima atsiimti pačiam?",
+  "en": "Can I pick it up myself?",
+  "ru": "Можно забрать самому?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Taip — Fabriko g. 12, Lentvaris. Dirbame I–V 08:00–18:00, VI 09:00–14:00.",
+  "lt": "Taip — Fabriko g. 12, Lentvaris. Dirbame I–V 08:00–18:00, VI 09:00–14:00.",
+  "en": "Yes — Fabriko g. 12, Lentvaris. Open Mon–Fri 08:00–18:00, Sat 09:00–14:00.",
+  "ru": "Да — Fabriko g. 12, Лентварис. Работаем Пн–Пт 08:00–18:00, Сб 09:00–14:00.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Greitas kontaktas",
+  "lt": "Greitas kontaktas",
+  "en": "Quick contact",
+  "ru": "Быстрая связь",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Palikite numerį.",
+  "lt": "Palikite numerį.",
+  "en": "Leave your number.",
+  "ru": "Оставьте номер.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Perskambinsime.",
+  "lt": "Perskambinsime.",
+  "en": "We'll call you back.",
+  "ru": "Перезвоним.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Telefonas",
+  "lt": "Telefonas",
+  "en": "Phone",
+  "ru": "Телефон",
+  "group": "Bendri"
+ },
+ {
+  "source": "El. paštas",
+  "lt": "El. paštas",
+  "en": "Email",
+  "ru": "Эл. почта",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Adresas",
+  "lt": "Adresas",
+  "en": "Address",
+  "ru": "Адрес",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Darbo laikas",
+  "lt": "Darbo laikas",
+  "en": "Opening hours",
+  "ru": "Часы работы",
+  "group": "Bendri"
+ },
+ {
+  "source": "I–V 08:00–18:00 · VI 09:00–14:00",
+  "lt": "I–V 08:00–18:00 · VI 09:00–14:00",
+  "en": "Mon–Fri 08:00–18:00 · Sat 09:00–14:00",
+  "ru": "Пн–Пт 08:00–18:00 · Сб 09:00–14:00",
+  "group": "Bendri"
+ },
+ {
+  "source": "Užsisakykite skambutį",
+  "lt": "Užsisakykite skambutį",
+  "en": "Request a call",
+  "ru": "Заказать звонок",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Paskambinsime per darbo valandas.",
+  "lt": "Paskambinsime per darbo valandas.",
+  "en": "We'll call during working hours.",
+  "ru": "Позвоним в рабочее время.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ko ieškote?",
+  "lt": "Ko ieškote?",
+  "en": "What are you looking for?",
+  "ru": "Что ищете?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Įrašykite telefono numerį.",
+  "lt": "Įrašykite telefono numerį.",
+  "en": "Please enter your phone number.",
+  "ru": "Введите номер телефона.",
+  "group": "Bendri"
+ },
+ {
+  "source": "Laukiu skambučio",
+  "lt": "Laukiu skambučio",
+  "en": "Call me back",
+  "ru": "Жду звонка",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nemokamai · be įsipareigojimų",
+  "lt": "Nemokamai · be įsipareigojimų",
+  "en": "Free · no obligation",
+  "ru": "Бесплатно · без обязательств",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ačiū! Netrukus paskambinsime",
+  "lt": "Ačiū! Netrukus paskambinsime",
+  "en": "Thank you! We'll call you shortly",
+  "ru": "Спасибо! Скоро позвоним",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Originalios naudotos automobilių dalys ir varikliai Vilniuje. Pristatymas Lietuvoje ir Europoje.",
+  "lt": "Originalios naudotos automobilių dalys ir varikliai Vilniuje. Pristatymas Lietuvoje ir Europoje.",
+  "en": "Original used car parts and engines in Vilnius. Delivery across Lithuania and Europe.",
+  "ru": "Оригинальные б/у автозапчасти и двигатели в Вильнюсе. Доставка по Литве и Европе.",
+  "group": "Bendri"
+ },
+ {
+  "source": "I–V · 08:00–18:00",
+  "lt": "I–V · 08:00–18:00",
+  "en": "Mon–Fri · 08:00–18:00",
+  "ru": "Пн–Пт · 08:00–18:00",
+  "group": "Bendri"
+ },
+ {
+  "source": "VI · 09:00–14:00",
+  "lt": "VI · 09:00–14:00",
+  "en": "Sat · 09:00–14:00",
+  "ru": "Сб · 09:00–14:00",
+  "group": "Bendri"
+ },
+ {
+  "source": "Puslapis",
+  "lt": "Puslapis",
+  "en": "Pages",
+  "ru": "Разделы",
+  "group": "Bendri"
+ },
+ {
+  "source": "Parduoti automobilį",
+  "lt": "Parduoti automobilį",
+  "en": "Sell your car",
+  "ru": "Продать автомобиль",
+  "group": "Bendri"
+ },
+ {
+  "source": "Dažni klausimai",
+  "lt": "Dažni klausimai",
+  "en": "FAQ",
+  "ru": "Частые вопросы",
+  "group": "Bendri"
+ },
+ {
+  "source": "Privatumo politika",
+  "lt": "Privatumo politika",
+  "en": "Privacy policy",
+  "ru": "Политика конфиденциальности",
+  "group": "Bendri"
+ },
+ {
+  "source": "Slapukai",
+  "lt": "Slapukai",
+  "en": "Cookies",
+  "ru": "Cookies",
+  "group": "Bendri"
+ },
+ {
+  "source": "Privatumo politika · Slapukai",
+  "lt": "Privatumo politika · Slapukai",
+  "en": "Privacy policy · Cookies",
+  "ru": "Политика конфиденциальности · Cookies",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Detalės paieška",
+  "lt": "Detalės paieška",
+  "en": "Part search",
+  "ru": "Поиск детали",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Rasime detalę pagal jūsų VIN",
+  "lt": "Rasime detalę pagal jūsų VIN",
+  "en": "We'll find the part by your VIN",
+  "ru": "Найдём деталь по вашему VIN",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nemokamai ir be įsipareigojimų",
+  "lt": "Nemokamai ir be įsipareigojimų",
+  "en": "Free and with no obligation",
+  "ru": "Бесплатно и без обязательств",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Suderiname pagal VIN kodą",
+  "lt": "Suderiname pagal VIN kodą",
+  "en": "Matched by VIN",
+  "ru": "Подбор по VIN",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Siunčiame Lietuvoje ir Europoje",
+  "lt": "Siunčiame Lietuvoje ir Europoje",
+  "en": "Shipping in Lithuania and Europe",
+  "ru": "Доставка по Литве и Европе",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Arba skambinkite",
+  "lt": "Arba skambinkite",
+  "en": "Or call",
+  "ru": "Или позвоните",
+  "group": "Bendri"
+ },
+ {
+  "source": "Koks jūsų automobilis?",
+  "lt": "Koks jūsų automobilis?",
+  "en": "What is your car?",
+  "ru": "Какой у вас автомобиль?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Markė",
+  "lt": "Markė",
+  "en": "Make",
+  "ru": "Марка",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasirinkite markę",
+  "lt": "Pasirinkite markę",
+  "en": "Choose a make",
+  "ru": "Выберите марку",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kita",
+  "lt": "Kita",
+  "en": "Other",
+  "ru": "Другая",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Modelis",
+  "lt": "Modelis",
+  "en": "Model",
+  "ru": "Модель",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Metai",
+  "lt": "Metai",
+  "en": "Year",
+  "ru": "Год",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "VIN kodas",
+  "lt": "VIN kodas",
+  "en": "VIN",
+  "ru": "VIN-код",
+  "group": "Bendri"
+ },
+ {
+  "source": "— neprivaloma, bet tiksliau",
+  "lt": "— neprivaloma, bet tiksliau",
+  "en": "— optional, but more accurate",
+  "ru": "— не обязательно, но точнее",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kokios detalės reikia?",
+  "lt": "Kokios detalės reikia?",
+  "en": "Which part do you need?",
+  "ru": "Какая деталь нужна?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Detalė",
+  "lt": "Detalė",
+  "en": "Part",
+  "ru": "Деталь",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Komentaras",
+  "lt": "Komentaras",
+  "en": "Comment",
+  "ru": "Комментарий",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pristatymas",
+  "lt": "Pristatymas",
+  "en": "Delivery",
+  "ru": "Доставка",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kaip su jumis susisiekti?",
+  "lt": "Kaip su jumis susisiekti?",
+  "en": "How should we contact you?",
+  "ru": "Как с вами связаться?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Ieškote:",
+  "lt": "Ieškote:",
+  "en": "Looking for:",
+  "ru": "Вы ищете:",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Vardas",
+  "lt": "Vardas",
+  "en": "Name",
+  "ru": "Имя",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kaip atsakyti?",
+  "lt": "Kaip atsakyti?",
+  "en": "How should we reply?",
+  "ru": "Как ответить?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "← Atgal",
+  "lt": "← Atgal",
+  "en": "← Back",
+  "ru": "← Назад",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Atsakome darbo valandomis · I–V 08–18, VI 09–14",
+  "lt": "Atsakome darbo valandomis · I–V 08–18, VI 09–14",
+  "en": "We reply during working hours · Mon–Fri 08–18, Sat 09–14",
+  "ru": "Отвечаем в рабочее время · Пн–Пт 08–18, Сб 09–14",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Užklausa →",
+  "lt": "Užklausa →",
+  "en": "Inquiry →",
+  "ru": "Запрос →",
+  "group": "Bendri"
+ },
+ {
+  "source": "Užklausa",
+  "lt": "Užklausa",
+  "en": "Inquiry",
+  "ru": "Запрос",
+  "group": "Bendri"
+ },
+ {
+  "source": "Užklausa išsiųsta",
+  "lt": "Užklausa išsiųsta",
+  "en": "Request sent",
+  "ru": "Запрос отправлен",
+  "group": "Bendri"
+ },
+ {
+  "source": "Patikrinsime sandėlį ir",
+  "lt": "Patikrinsime sandėlį ir",
+  "en": "We'll check our stock and",
+  "ru": "Проверим склад и",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nauja užklausa",
+  "lt": "Nauja užklausa",
+  "en": "New request",
+  "ru": "Новый запрос",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Uždaryti",
+  "lt": "Uždaryti",
+  "en": "Close",
+  "ru": "Закрыть",
+  "group": "Bendri"
+ },
+ {
+  "source": "Parduokite be ilgų derybų",
+  "lt": "Parduokite be ilgų derybų",
+  "en": "Sell without long haggling",
+  "ru": "Продайте без долгих торгов",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pasiimame visoje Lietuvoje",
+  "lt": "Pasiimame visoje Lietuvoje",
+  "en": "We collect anywhere in Lithuania",
+  "ru": "Забираем по всей Литве",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Važiuojantį, daužtą ar nevažiuojantį",
+  "lt": "Važiuojantį, daužtą ar nevažiuojantį",
+  "en": "Running, damaged or not running",
+  "ru": "На ходу, битый или не на ходу",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Kiek vertas jūsų automobilis?",
+  "lt": "Kiek vertas jūsų automobilis?",
+  "en": "How much is your car worth?",
+  "ru": "Сколько стоит ваш автомобиль?",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Užpildykite — paskambinsime su pasiūlymu.",
+  "lt": "Užpildykite — paskambinsime su pasiūlymu.",
+  "en": "Fill this in — we'll call you with an offer.",
+  "ru": "Заполните — перезвоним с предложением.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Markė ir modelis",
+  "lt": "Markė ir modelis",
+  "en": "Make and model",
+  "ru": "Марка и модель",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Būklė",
+  "lt": "Būklė",
+  "en": "Condition",
+  "ru": "Состояние",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Įrašykite telefono numerį — paskambinsime su pasiūlymu.",
+  "lt": "Įrašykite telefono numerį — paskambinsime su pasiūlymu.",
+  "en": "Enter your phone number — we'll call you with an offer.",
+  "ru": "Введите номер телефона — перезвоним с предложением.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Gauti pasiūlymą →",
+  "lt": "Gauti pasiūlymą →",
+  "en": "Get an offer →",
+  "ru": "Получить предложение →",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Paraiška išsiųsta",
+  "lt": "Paraiška išsiųsta",
+  "en": "Request sent",
+  "ru": "Заявка отправлена",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Paskambinsime su pasiūlymu per 1 darbo dieną.",
+  "lt": "Paskambinsime su pasiūlymu per 1 darbo dieną.",
+  "en": "We'll call you with an offer within 1 working day.",
+  "ru": "Перезвоним с предложением в течение 1 рабочего дня.",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Nauja paraiška",
+  "lt": "Nauja paraiška",
+  "en": "New request",
+  "ru": "Новая заявка",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Greita užklausa",
+  "lt": "Greita užklausa",
+  "en": "Quick request",
+  "ru": "Быстрый запрос",
+  "group": "Bendri"
+ },
+ {
+  "source": "Kokia detalė?",
+  "lt": "Kokia detalė?",
+  "en": "Which part?",
+  "ru": "Какая деталь?",
+  "group": "Bendri"
+ },
+ {
+  "source": "Siųsti užklausą →",
+  "lt": "Siųsti užklausą →",
+  "en": "Send request →",
+  "ru": "Отправить запрос →",
+  "group": "Bendri"
+ },
+ {
+  "source": "Patikrinsime, ar dalis yra, ir paskambinsime.",
+  "lt": "Patikrinsime, ar dalis yra, ir paskambinsime.",
+  "en": "We'll check if the part is available and call you.",
+  "ru": "Проверим наличие детали и позвоним.",
+  "group": "Bendri"
+ },
+ {
+  "source": "Logagroup — naudotos automobilių dalys",
+  "lt": "Logagroup — naudotos automobilių dalys",
+  "en": "Logagroup — used car parts",
+  "ru": "Logagroup — б/у автозапчасти",
+  "group": "Bendri"
+ },
+ {
+  "source": "Pagrindinis meniu",
+  "lt": "Pagrindinis meniu",
+  "en": "Main menu",
+  "ru": "Главное меню",
+  "group": "Bendri"
+ },
+ {
+  "source": "— plačiau",
+  "lt": "— plačiau",
+  "en": "— details",
+  "ru": "— подробнее",
+  "group": "Bendri"
+ },
+ {
+  "source": "Užklausa su VIN kodu per Viber ar WhatsApp",
+  "lt": "Užklausa su VIN kodu per Viber ar WhatsApp",
+  "en": "Request with VIN via Viber or WhatsApp",
+  "ru": "Запрос с VIN через Viber или WhatsApp",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Detalės paieška ir patikra sandėlyje",
+  "lt": "Detalės paieška ir patikra sandėlyje",
+  "en": "Finding and checking the part in stock",
+  "ru": "Поиск и проверка детали на складе",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pristatymas Lietuvoje ir Europoje",
+  "lt": "Pristatymas Lietuvoje ir Europoje",
+  "en": "Delivery in Lithuania and Europe",
+  "ru": "Доставка по Литве и Европе",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Automobilio raktų perdavimas prie daužto automobilio",
+  "lt": "Automobilio raktų perdavimas prie daužto automobilio",
+  "en": "Handing over keys next to a damaged car",
+  "ru": "Передача ключей у битого автомобиля",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Automobilis, detalė, VIN…",
+  "lt": "Automobilis, detalė, VIN…",
+  "en": "Car, part, VIN…",
+  "ru": "Авто, деталь, VIN…",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Skambinti +370 641 23788",
+  "lt": "Skambinti +370 641 23788",
+  "en": "Call +370 641 23788",
+  "ru": "Позвонить +370 641 23788",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Rasti detalę",
+  "lt": "Rasti detalę",
+  "en": "Find a part",
+  "ru": "Найти деталь",
+  "group": "Bendri"
+ },
+ {
+  "source": "pvz. X5 F15",
+  "lt": "pvz. X5 F15",
+  "en": "e.g. X5 F15",
+  "ru": "напр. X5 F15",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "pvz. 2016",
+  "lt": "pvz. 2016",
+  "en": "e.g. 2016",
+  "ru": "напр. 2016",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "17 simbolių",
+  "lt": "17 simbolių",
+  "en": "17 characters",
+  "ru": "17 символов",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "pvz. priekinis žibintas, variklis",
+  "lt": "pvz. priekinis žibintas, variklis",
+  "en": "e.g. headlight, engine",
+  "ru": "напр. передняя фара, двигатель",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Pusė, spalva, OEM kodas…",
+  "lt": "Pusė, spalva, OEM kodas…",
+  "en": "Side, colour, OEM number…",
+  "ru": "Сторона, цвет, OEM-номер…",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Jūsų vardas",
+  "lt": "Jūsų vardas",
+  "en": "Your name",
+  "ru": "Ваше имя",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "pvz. VW Passat",
+  "lt": "pvz. VW Passat",
+  "en": "e.g. VW Passat",
+  "ru": "напр. VW Passat",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "pvz. 2012",
+  "lt": "pvz. 2012",
+  "en": "e.g. 2012",
+  "ru": "напр. 2012",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "pvz. galinis dangtis",
+  "lt": "pvz. galinis dangtis",
+  "en": "e.g. tailgate",
+  "ru": "напр. крышка багажника",
+  "group": "Bendri"
+ },
+ {
+  "source": "Važiuoja",
+  "lt": "Važiuoja",
+  "en": "Running",
+  "ru": "На ходу",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Nevažiuoja",
+  "lt": "Nevažiuoja",
+  "en": "Not running",
+  "ru": "Не на ходу",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Daužtas",
+  "lt": "Daužtas",
+  "en": "Damaged",
+  "ru": "Битый",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Europa · Hečbekas",
+  "lt": "Europa · Hečbekas",
+  "en": "Europe · Hatchback",
+  "ru": "Европа · Хэтчбек",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Europa · Visureigis",
+  "lt": "Europa · Visureigis",
+  "en": "Europe · SUV",
+  "ru": "Европа · Внедорожник",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Europa · Coupe",
+  "lt": "Europa · Coupe",
+  "en": "Europe · Coupe",
+  "ru": "Европа · Купе",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Ardomas BMW X5 dalimis",
+  "lt": "Ardomas BMW X5 dalimis",
+  "en": "BMW X5 being dismantled for parts",
+  "ru": "BMW X5 на разборке",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "51 automobilis",
+  "lt": "51 automobilis",
+  "en": "51 cars",
+  "ru": "51 автомобиль",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Originalios dalys iš ardomų donorų Vilniuje.",
+  "lt": "Originalios dalys iš ardomų donorų Vilniuje.",
+  "en": "Original parts from donor cars in Vilnius.",
+  "ru": "Оригинальные детали с доноров в Вильнюсе.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Visi automobiliai",
+  "lt": "Visi automobiliai",
+  "en": "All cars",
+  "ru": "Все автомобили",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Patikrintas variklis ant padėklo",
+  "lt": "Patikrintas variklis ant padėklo",
+  "en": "Checked engine on a pallet",
+  "ru": "Проверенный двигатель на паллете",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "25 varikliai",
+  "lt": "25 varikliai",
+  "en": "25 engines",
+  "ru": "25 двигателей",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Naudoti varikliai su garantija. Siunčiame visoje Europoje.",
+  "lt": "Naudoti varikliai su garantija. Siunčiame visoje Europoje.",
+  "en": "Used engines with warranty. We ship across Europe.",
+  "ru": "Б/у двигатели с гарантией. Отправляем по всей Европе.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Visi varikliai",
+  "lt": "Visi varikliai",
+  "en": "All engines",
+  "ru": "Все двигатели",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Patikrinti",
+  "lt": "Patikrinti",
+  "en": "Checked",
+  "ru": "Проверенные",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "varikliai",
+  "lt": "varikliai",
+  "en": "engines",
+  "ru": "двигатели",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Automobiliai",
+  "lt": "Automobiliai",
+  "en": "Cars",
+  "ru": "Автомобили",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "dalimis",
+  "lt": "dalimis",
+  "en": "for parts",
+  "ru": "на разборке",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "paskambinsime",
+  "lt": "paskambinsime",
+  "en": "we'll call you",
+  "ru": "перезвоним",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "parašysime per Viber",
+  "lt": "parašysime per Viber",
+  "en": "we'll message you on Viber",
+  "ru": "напишем в Viber",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "parašysime per WhatsApp",
+  "lt": "parašysime per WhatsApp",
+  "en": "we'll message you on WhatsApp",
+  "ru": "напишем в WhatsApp",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Atsiimsiu",
+  "lt": "Atsiimsiu",
+  "en": "Pick up",
+  "ru": "Самовывоз",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Į Lietuvą",
+  "lt": "Į Lietuvą",
+  "en": "To Lithuania",
+  "ru": "По Литве",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Į Europą",
+  "lt": "Į Europą",
+  "en": "To Europe",
+  "ru": "В Европу",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Skambutis",
+  "lt": "Skambutis",
+  "en": "Call",
+  "ru": "Звонок",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Automobilis",
+  "lt": "Automobilis",
+  "en": "Car",
+  "ru": "Автомобиль",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Toliau →",
+  "lt": "Toliau →",
+  "en": "Next →",
+  "ru": "Далее →",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Pasirinkite markę arba įrašykite VIN.",
+  "lt": "Pasirinkite markę arba įrašykite VIN.",
+  "en": "Choose a make or enter a VIN.",
+  "ru": "Выберите марку или введите VIN.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Įrašykite, kokios detalės ieškote.",
+  "lt": "Įrašykite, kokios detalės ieškote.",
+  "en": "Tell us which part you need.",
+  "ru": "Укажите, какую деталь ищете.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Pradžia",
+  "lt": "Pradžia",
+  "en": "Home",
+  "ru": "Главная",
+  "group": "Bendri"
+ },
+ {
+  "source": "Automobiliai dalimis",
+  "lt": "Automobiliai dalimis",
+  "en": "Cars for parts",
+  "ru": "Авто на разборке",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Originalios naudotos dalys iš ardomų donorų Vilniuje. Pasirinkite automobilį — pamatysite nuotraukas ir duomenis.",
+  "lt": "Originalios naudotos dalys iš ardomų donorų Vilniuje. Pasirinkite automobilį — pamatysite nuotraukas ir duomenis.",
+  "en": "Original used parts from donor cars in Vilnius. Pick a car to see photos and details.",
+  "ru": "Оригинальные б/у детали с доноров в Вильнюсе. Выберите авто — увидите фото и данные.",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Rikiuoti",
+  "lt": "Rikiuoti",
+  "en": "Sort",
+  "ru": "Сортировка",
+  "group": "Bendri"
+ },
+ {
+  "source": "Naujausi metai",
+  "lt": "Naujausi metai",
+  "en": "Newest first",
+  "ru": "Сначала новые",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Seniausi metai",
+  "lt": "Seniausi metai",
+  "en": "Oldest first",
+  "ru": "Сначала старые",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Pagal pavadinimą",
+  "lt": "Pagal pavadinimą",
+  "en": "By name",
+  "ru": "По названию",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Rasta:",
+  "lt": "Rasta:",
+  "en": "Found:",
+  "ru": "Найдено:",
+  "group": "Bendri"
+ },
+ {
+  "source": "nuotr.",
+  "lt": "nuotr.",
+  "en": "photos",
+  "ru": "фото",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Peržiūrėti dalis",
+  "lt": "Peržiūrėti dalis",
+  "en": "View parts",
+  "ru": "Смотреть детали",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Nieko neradome",
+  "lt": "Nieko neradome",
+  "en": "Nothing found",
+  "ru": "Ничего не найдено",
+  "group": "Bendri"
+ },
+ {
+  "source": "Pabandykite kitą paiešką arba paskambinkite — patikrinsime sandėlyje.",
+  "lt": "Pabandykite kitą paiešką arba paskambinkite — patikrinsime sandėlyje.",
+  "en": "Try another search or call us — we'll check our stock.",
+  "ru": "Попробуйте другой запрос или позвоните — проверим на складе.",
+  "group": "Bendri"
+ },
+ {
+  "source": "Rodyti viską",
+  "lt": "Rodyti viską",
+  "en": "Show all",
+  "ru": "Показать всё",
+  "group": "Bendri"
+ },
+ {
+  "source": "← Visi automobiliai",
+  "lt": "← Visi automobiliai",
+  "en": "← All cars",
+  "ru": "← Все автомобили",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Automobilis dalimis ·",
+  "lt": "Automobilis dalimis ·",
+  "en": "Car for parts ·",
+  "ru": "Авто на разборке ·",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Iš viso",
+  "lt": "Iš viso",
+  "en": "In total",
+  "ru": "Всего",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "nuotraukų — likusias atsiųsime per Viber ar WhatsApp.",
+  "lt": "nuotraukų — likusias atsiųsime per Viber ar WhatsApp.",
+  "en": "photos — we'll send the rest via Viber or WhatsApp.",
+  "ru": "фото — остальные пришлём в Viber или WhatsApp.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Aprašymas",
+  "lt": "Aprašymas",
+  "en": "Description",
+  "ru": "Описание",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Automobilio duomenys",
+  "lt": "Automobilio duomenys",
+  "en": "Car details",
+  "ru": "Данные автомобиля",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Domina dalis iš šio automobilio?",
+  "lt": "Domina dalis iš šio automobilio?",
+  "en": "Need a part from this car?",
+  "ru": "Нужна деталь с этого авто?",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Paskambinkite arba parašykite — pasakysime, ar turime, ir atsiųsime nuotraukas.",
+  "lt": "Paskambinkite arba parašykite — pasakysime, ar turime, ir atsiųsime nuotraukas.",
+  "en": "Call or message us — we'll tell you if we have it and send photos.",
+  "ru": "Позвоните или напишите — скажем, есть ли деталь, и пришлём фото.",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "I–V 08:00–18:00 · VI 09:00–14:00 · Fabriko g. 12, Lentvaris",
+  "lt": "I–V 08:00–18:00 · VI 09:00–14:00 · Fabriko g. 12, Lentvaris",
+  "en": "Mon–Fri 08:00–18:00 · Sat 09:00–14:00 · Fabriko g. 12, Lentvaris",
+  "ru": "Пн–Пт 08:00–18:00 · Сб 09:00–14:00 · Fabriko g. 12, Лентварис",
+  "group": "Bendri"
+ },
+ {
+  "source": "Taip pat ardomi",
+  "lt": "Taip pat ardomi",
+  "en": "Also dismantling",
+  "ru": "Также на разборке",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Panašūs automobiliai",
+  "lt": "Panašūs automobiliai",
+  "en": "Similar cars",
+  "ru": "Похожие автомобили",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Visi automobiliai →",
+  "lt": "Visi automobiliai →",
+  "en": "All cars →",
+  "ru": "Все автомобили →",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Naršymo kelias",
+  "lt": "Naršymo kelias",
+  "en": "Breadcrumb",
+  "ru": "Навигация",
+  "group": "Bendri"
+ },
+ {
+  "source": "Paieška",
+  "lt": "Paieška",
+  "en": "Search",
+  "ru": "Поиск",
+  "group": "Bendri"
+ },
+ {
+  "source": "Ieškoti: BMW X5, Mustang, VIN…",
+  "lt": "Ieškoti: BMW X5, Mustang, VIN…",
+  "en": "Search: BMW X5, Mustang, VIN…",
+  "ru": "Поиск: BMW X5, Mustang, VIN…",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Markės",
+  "lt": "Markės",
+  "en": "Makes",
+  "ru": "Марки",
+  "group": "Bendri"
+ },
+ {
+  "source": "— nuotrauka",
+  "lt": "— nuotrauka",
+  "en": "— photo",
+  "ru": "— фото",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Ankstesnė nuotrauka",
+  "lt": "Ankstesnė nuotrauka",
+  "en": "Previous photo",
+  "ru": "Предыдущее фото",
+  "group": "Bendri"
+ },
+ {
+  "source": "Kita nuotrauka",
+  "lt": "Kita nuotrauka",
+  "en": "Next photo",
+  "ru": "Следующее фото",
+  "group": "Bendri"
+ },
+ {
+  "source": "Rodyti nuotrauką",
+  "lt": "Rodyti nuotrauką",
+  "en": "Show photo",
+  "ru": "Показать фото",
+  "group": "Bendri"
+ },
+ {
+  "source": "Pavarų dėžė",
+  "lt": "Pavarų dėžė",
+  "en": "Gearbox",
+  "ru": "Коробка передач",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kėbulas",
+  "lt": "Kėbulas",
+  "en": "Body",
+  "ru": "Кузов",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Varomieji ratai",
+  "lt": "Varomieji ratai",
+  "en": "Drive",
+  "ru": "Привод",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kilmė",
+  "lt": "Kilmė",
+  "en": "Origin",
+  "ru": "Происхождение",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kuras",
+  "lt": "Kuras",
+  "en": "Fuel",
+  "ru": "Топливо",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Rida",
+  "lt": "Rida",
+  "en": "Mileage",
+  "ru": "Пробег",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Spalva",
+  "lt": "Spalva",
+  "en": "Colour",
+  "ru": "Цвет",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Statusas",
+  "lt": "Statusas",
+  "en": "Status",
+  "ru": "Статус",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Ardomas",
+  "lt": "Ardomas",
+  "en": "Dismantling",
+  "ru": "На разборке",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Nuotraukos",
+  "lt": "Nuotraukos",
+  "en": "Photos",
+  "ru": "Фото",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Visi",
+  "lt": "Visi",
+  "en": "All",
+  "ru": "Все",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kopijuoti",
+  "lt": "Kopijuoti",
+  "en": "Copy",
+  "ru": "Копировать",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Nukopijuota",
+  "lt": "Nukopijuota",
+  "en": "Copied",
+  "ru": "Скопировано",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Dėl dalių skambinkite +370 641 23788.",
+  "lt": "Dėl dalių skambinkite +370 641 23788.",
+  "en": "Call +370 641 23788 about parts.",
+  "ru": "По запчастям звоните +370 641 23788.",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Naudoti varikliai",
+  "lt": "Naudoti varikliai",
+  "en": "Used engines",
+  "ru": "Б/у двигатели",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Patikrinti varikliai",
+  "lt": "Patikrinti varikliai",
+  "en": "Checked engines",
+  "ru": "Проверенные двигатели",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Patikrinti varikliai su garantija. Siunčiame visoje Lietuvoje ir Europoje.",
+  "lt": "Patikrinti varikliai su garantija. Siunčiame visoje Lietuvoje ir Europoje.",
+  "en": "Checked engines with warranty. We ship across Lithuania and Europe.",
+  "ru": "Проверенные двигатели с гарантией. Отправляем по Литве и Европе.",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Kaina: nuo mažiausios",
+  "lt": "Kaina: nuo mažiausios",
+  "en": "Price: low to high",
+  "ru": "Цена: по возрастанию",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Kaina: nuo didžiausios",
+  "lt": "Kaina: nuo didžiausios",
+  "en": "Price: high to low",
+  "ru": "Цена: по убыванию",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Pagal kodą",
+  "lt": "Pagal kodą",
+  "en": "By code",
+  "ru": "По коду",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Sandėlyje",
+  "lt": "Sandėlyje",
+  "en": "In stock",
+  "ru": "В наличии",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Variklio kodas",
+  "lt": "Variklio kodas",
+  "en": "Engine code",
+  "ru": "Код двигателя",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Garantija",
+  "lt": "Garantija",
+  "en": "Warranty",
+  "ru": "Гарантия",
+  "group": "Varikliai"
+ },
+ {
+  "source": "← Visi varikliai",
+  "lt": "← Visi varikliai",
+  "en": "← All engines",
+  "ru": "← Все двигатели",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Naudotas variklis ·",
+  "lt": "Naudotas variklis ·",
+  "en": "Used engine ·",
+  "ru": "Б/у двигатель ·",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Apie variklį",
+  "lt": "Apie variklį",
+  "en": "About the engine",
+  "ru": "О двигателе",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Variklis",
+  "lt": "Variklis",
+  "en": "Engine",
+  "ru": "Двигатель",
+  "group": "Varikliai"
+ },
+ {
+  "source": "nuimtas nuo",
+  "lt": "nuimtas nuo",
+  "en": "was removed from a",
+  "ru": "снят с",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Suderiname pagal VIN",
+  "lt": "Suderiname pagal VIN",
+  "en": "Matched by VIN",
+  "ru": "Подбор по VIN",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Siuntimas LT ir ES",
+  "lt": "Siuntimas LT ir ES",
+  "en": "Shipping LT & EU",
+  "ru": "Доставка LT и ЕС",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Kaina",
+  "lt": "Kaina",
+  "en": "Price",
+  "ru": "Цена",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Norite užsisakyti šį variklį?",
+  "lt": "Norite užsisakyti šį variklį?",
+  "en": "Want to order this engine?",
+  "ru": "Хотите заказать этот двигатель?",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Paskambinkite — patikrinsime suderinamumą ir suderinsime pristatymą.",
+  "lt": "Paskambinkite — patikrinsime suderinamumą ir suderinsime pristatymą.",
+  "en": "Call us — we'll check compatibility and arrange delivery.",
+  "ru": "Позвоните — проверим совместимость и договоримся о доставке.",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Taip pat sandėlyje",
+  "lt": "Taip pat sandėlyje",
+  "en": "Also in stock",
+  "ru": "Также в наличии",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Panašūs varikliai",
+  "lt": "Panašūs varikliai",
+  "en": "Similar engines",
+  "ru": "Похожие двигатели",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Visi varikliai →",
+  "lt": "Visi varikliai →",
+  "en": "All engines →",
+  "ru": "Все двигатели →",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Ieškoti: B58, N63, Golf, Outback…",
+  "lt": "Ieškoti: B58, N63, Golf, Outback…",
+  "en": "Search: B58, N63, Golf, Outback…",
+  "ru": "Поиск: B58, N63, Golf, Outback…",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Tūris",
+  "lt": "Tūris",
+  "en": "Displacement",
+  "ru": "Объём",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Donoro VIN",
+  "lt": "Donoro VIN",
+  "en": "Donor VIN",
+  "ru": "VIN донора",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Tinka",
+  "lt": "Tinka",
+  "en": "Fits",
+  "ru": "Подходит",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Galia",
+  "lt": "Galia",
+  "en": "Power",
+  "ru": "Мощность",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "1 metai",
+  "lt": "1 metai",
+  "en": "1 year",
+  "ru": "1 год",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "90 dienų",
+  "lt": "90 dienų",
+  "en": "90 days",
+  "ru": "90 дней",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Automatinė",
+  "lt": "Automatinė",
+  "en": "Automatic",
+  "ru": "Автомат",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Mechaninė",
+  "lt": "Mechaninė",
+  "en": "Manual",
+  "ru": "Механика",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Benzinas",
+  "lt": "Benzinas",
+  "en": "Petrol",
+  "ru": "Бензин",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Dyzelinas",
+  "lt": "Dyzelinas",
+  "en": "Diesel",
+  "ru": "Дизель",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Elektra",
+  "lt": "Elektra",
+  "en": "Electric",
+  "ru": "Электро",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Hibridas",
+  "lt": "Hibridas",
+  "en": "Hybrid",
+  "ru": "Гибрид",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Europa",
+  "lt": "Europa",
+  "en": "Europe",
+  "ru": "Европа",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "JAV",
+  "lt": "JAV",
+  "en": "USA",
+  "ru": "США",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Hečbekas",
+  "lt": "Hečbekas",
+  "en": "Hatchback",
+  "ru": "Хэтчбек",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Kupė",
+  "lt": "Kupė",
+  "en": "Coupe",
+  "ru": "Купе",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Sedanas",
+  "lt": "Sedanas",
+  "en": "Sedan",
+  "ru": "Седан",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Universalas",
+  "lt": "Universalas",
+  "en": "Estate",
+  "ru": "Универсал",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Visureigis",
+  "lt": "Visureigis",
+  "en": "SUV",
+  "ru": "Внедорожник",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Vienatūris",
+  "lt": "Vienatūris",
+  "en": "MPV",
+  "ru": "Минивэн",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Krovininis",
+  "lt": "Krovininis",
+  "en": "Van",
+  "ru": "Фургон",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Pilna",
+  "lt": "Pilna",
+  "en": "All-wheel",
+  "ru": "Полный",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Priekiniai",
+  "lt": "Priekiniai",
+  "en": "Front",
+  "ru": "Передний",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Galiniai",
+  "lt": "Galiniai",
+  "en": "Rear",
+  "ru": "Задний",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Juoda",
+  "lt": "Juoda",
+  "en": "Black",
+  "ru": "Чёрный",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Juodas 475",
+  "lt": "Juodas 475",
+  "en": "Black 475",
+  "ru": "Чёрный 475",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Pilka",
+  "lt": "Pilka",
+  "en": "Grey",
+  "ru": "Серый",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Mėlyna",
+  "lt": "Mėlyna",
+  "en": "Blue",
+  "ru": "Синий",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Melyna",
+  "lt": "Melyna",
+  "en": "Blue",
+  "ru": "Синий",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Auksinis",
+  "lt": "Auksinis",
+  "en": "Gold",
+  "ru": "Золотой",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Tikslus atitikimas pagal VIN",
+  "lt": "Tikslus atitikimas pagal VIN",
+  "en": "Exact VIN match",
+  "ru": "Точный подбор по VIN",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": ". Prieš išsiunčiant patikriname būklę ir suderiname su jūsų automobiliu pagal VIN. Daugiau informacijos apie būklę, suderinamumą ir pristatymą suteiksime telefonu.",
+  "lt": ". Prieš išsiunčiant patikriname būklę ir suderiname su jūsų automobiliu pagal VIN. Daugiau informacijos apie būklę, suderinamumą ir pristatymą suteiksime telefonu.",
+  "en": ". Before shipping we check its condition and match it to your car by VIN. We'll give you more details on condition, compatibility and delivery by phone.",
+  "ru": ". Перед отправкой проверяем состояние и сверяем с вашим авто по VIN. Подробнее о состоянии, совместимости и доставке расскажем по телефону.",
+  "group": "Varikliai"
+ },
+ {
+  "source": "Kalba",
+  "lt": "Kalba",
+  "en": "Language",
+  "ru": "Язык",
+  "group": "Bendri"
+ },
+ {
+  "source": "Naudotos originalios",
+  "lt": "Naudotos originalios",
+  "en": "Used original",
+  "ru": "Б/у оригинальные",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "automobilių dalys",
+  "lt": "automobilių dalys",
+  "en": "car parts",
+  "ru": "автозапчасти",
+  "group": "Pagrindinis"
+ },
+ {
+  "source": "Loga group — į pradžią",
+  "lt": "Loga group — į pradžią",
+  "en": "Loga group — home",
+  "ru": "Loga group — на главную",
+  "group": "Bendri"
+ },
+ {
+  "source": "Meniu",
+  "lt": "Meniu",
+  "en": "Menu",
+  "ru": "Меню",
+  "group": "Bendri"
+ },
+ {
+  "source": "Atidaryti meniu",
+  "lt": "Atidaryti meniu",
+  "en": "Open menu",
+  "ru": "Открыть меню",
+  "group": "Bendri"
+ },
+ {
+  "source": "Pasirinkite kalbą",
+  "lt": "Pasirinkite kalbą",
+  "en": "Choose language",
+  "ru": "Выберите язык",
+  "group": "Bendri"
+ },
+ {
+  "source": "Susisiekite",
+  "lt": "Susisiekite",
+  "en": "Get in touch",
+  "ru": "Связаться",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Skambinti",
+  "lt": "Skambinti",
+  "en": "Call",
+  "ru": "Позвонить",
+  "group": "Duomenys ir formos"
+ },
+ {
+  "source": "Peržiūrėti automobilį",
+  "lt": "Peržiūrėti automobilį",
+  "en": "View car",
+  "ru": "Смотреть авто",
+  "group": "Automobiliai"
+ },
+ {
+  "source": "Mes naudojame slapukus",
+  "lt": "Mes naudojame slapukus",
+  "en": "We use cookies",
+  "ru": "Мы используем cookies",
+  "group": "Bendri"
+ },
+ {
+  "source": "Būtini slapukai užtikrina svetainės veikimą. Analitinius ir rinkodaros slapukus naudosime tik jums sutikus.",
+  "lt": "Būtini slapukai užtikrina svetainės veikimą. Analitinius ir rinkodaros slapukus naudosime tik jums sutikus.",
+  "en": "Necessary cookies keep the site working. We'll only use analytics and marketing cookies if you agree.",
+  "ru": "Необходимые cookies обеспечивают работу сайта. Аналитические и маркетинговые используем только с вашего согласия.",
+  "group": "Bendri"
+ },
+ {
+  "source": "Sužinoti daugiau",
+  "lt": "Sužinoti daugiau",
+  "en": "Learn more",
+  "ru": "Подробнее",
+  "group": "Bendri"
+ },
+ {
+  "source": "Būtini",
+  "lt": "Būtini",
+  "en": "Necessary",
+  "ru": "Необходимые",
+  "group": "Bendri"
+ },
+ {
+  "source": "Kalba ir slapukų pasirinkimas",
+  "lt": "Kalba ir slapukų pasirinkimas",
+  "en": "Language and cookie choice",
+  "ru": "Язык и выбор cookies",
+  "group": "Bendri"
+ },
+ {
+  "source": "Visada įjungta",
+  "lt": "Visada įjungta",
+  "en": "Always on",
+  "ru": "Всегда включены",
+  "group": "Bendri"
+ },
+ {
+  "source": "Analitiniai",
+  "lt": "Analitiniai",
+  "en": "Analytics",
+  "ru": "Аналитические",
+  "group": "Bendri"
+ },
+ {
+  "source": "Lankomumo statistika svetainei tobulinti",
+  "lt": "Lankomumo statistika svetainei tobulinti",
+  "en": "Visit statistics to improve the site",
+  "ru": "Статистика посещений для улучшения сайта",
+  "group": "Bendri"
+ },
+ {
+  "source": "Rinkodaros",
+  "lt": "Rinkodaros",
+  "en": "Marketing",
+  "ru": "Маркетинговые",
+  "group": "Bendri"
+ },
+ {
+  "source": "Aktualūs pasiūlymai kitose svetainėse",
+  "lt": "Aktualūs pasiūlymai kitose svetainėse",
+  "en": "Relevant offers on other websites",
+  "ru": "Актуальные предложения на других сайтах",
+  "group": "Bendri"
+ },
+ {
+  "source": "Tik būtini",
+  "lt": "Tik būtini",
+  "en": "Necessary only",
+  "ru": "Только необходимые",
+  "group": "Bendri"
+ },
+ {
+  "source": "Sutinku",
+  "lt": "Sutinku",
+  "en": "Accept all",
+  "ru": "Принять все",
+  "group": "Bendri"
+ },
+ {
+  "source": "Išsaugoti pasirinkimą",
+  "lt": "Išsaugoti pasirinkimą",
+  "en": "Save choice",
+  "ru": "Сохранить выбор",
+  "group": "Bendri"
+ },
+ {
+  "source": "Nustatymai",
+  "lt": "Nustatymai",
+  "en": "Settings",
+  "ru": "Настройки",
+  "group": "Bendri"
+ },
+ {
+  "source": "Keisti slapukų nustatymus",
+  "lt": "Keisti slapukų nustatymus",
+  "en": "Change cookie settings",
+  "ru": "Изменить настройки cookies",
+  "group": "Teisinė informacija"
+ },
+ {
+  "source": "Slapukų nustatymai",
+  "lt": "Slapukų nustatymai",
+  "en": "Cookie settings",
+  "ru": "Настройки cookies",
+  "group": "Teisinė informacija"
+ },
+ {
+  "source": "Klausimai dėl duomenų?",
+  "lt": "Klausimai dėl duomenų?",
+  "en": "Questions about your data?",
+  "ru": "Вопросы о данных?",
+  "group": "Teisinė informacija"
+ },
+ {
+  "source": "Parašyti",
+  "lt": "Parašyti",
+  "en": "Write to us",
+  "ru": "Написать",
+  "group": "Teisinė informacija"
+ },
+ {
+  "source": "Dokumentai",
+  "lt": "Dokumentai",
+  "en": "Documents",
+  "ru": "Документы",
+  "group": "Teisinė informacija"
+ },
+ {
+  "source": "Versija",
+  "lt": "Versija",
+  "en": "Version",
+  "ru": "Версия",
+  "group": "Automobiliai"
+ }
+]

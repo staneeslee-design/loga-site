@@ -1,0 +1,179 @@
+{
+ "lt": {
+  "updated": "Atnaujinta: 2026 m. lapkričio 2 d.",
+  "privacy": [
+   {
+    "title": "Kas mes esame",
+    "body": "Duomenų valdytojas — [ĮMONĖS PAVADINIMAS], įmonės kodas [KODAS], Fabriko g. 12, Lentvaris (prekės ženklas „Loga group“). Kontaktai: +370 641 23788, dalys@loga.lt."
+   },
+   {
+    "title": "Kokius duomenis renkame",
+    "body": "Vardą, telefono numerį ir el. paštą, kai juos pateikiate formoje ar susisiekiate su mumis; informaciją apie jūsų automobilį (markę, modelį, metus, VIN) ir reikalingą detalę; susirašinėjimo turinį per Viber, WhatsApp ar el. paštą; techninius naršymo duomenis (IP adresą, naršyklės tipą) — tik jei sutinkate su atitinkamais slapukais."
+   },
+   {
+    "title": "Kam naudojame duomenis",
+    "body": "Atsakyti į jūsų užklausas ir paskambinti; parinkti ir suderinti detales pagal VIN; pateikti pasiūlymą dėl automobilio supirkimo; įvykdyti užsakymą ir pristatymą; vykdyti teisės aktuose numatytas pareigas (pvz., buhalterinė apskaita)."
+   },
+   {
+    "title": "Teisinis pagrindas",
+    "body": "Sutarties sudarymas ir vykdymas (BDAR 6 str. 1 d. b p.), mūsų teisėtas interesas atsakyti į užklausas (f p.), teisinė prievolė (c p.) ir jūsų sutikimas — analitiniams ir rinkodaros slapukams (a p.)."
+   },
+   {
+    "title": "Kiek laiko saugome",
+    "body": "Užklausų duomenis — iki 12 mėnesių nuo paskutinio kontakto; sutarčių ir apskaitos dokumentus — tiek, kiek reikalauja teisės aktai (paprastai 10 metų)."
+   },
+   {
+    "title": "Kam perduodame",
+    "body": "Tik tiek, kiek būtina paslaugai suteikti: kurjerių ir transporto įmonėms, IT ir svetainės priežiūros paslaugų teikėjams, apskaitos paslaugų teikėjams, valstybės institucijoms — kai to reikalauja įstatymai. Duomenų neparduodame."
+   },
+   {
+    "title": "Jūsų teisės",
+    "body": "Turite teisę susipažinti su savo duomenimis, juos ištaisyti, ištrinti, apriboti jų tvarkymą, nesutikti su tvarkymu, gauti duomenis perkeliamu formatu ir bet kada atšaukti sutikimą. Kreipkitės dalys@loga.lt. Taip pat galite pateikti skundą Valstybinei duomenų apsaugos inspekcijai (www.vdai.lrv.lt)."
+   },
+   {
+    "title": "Saugumas",
+    "body": "Taikome technines ir organizacines priemones, kad apsaugotume duomenis nuo neteisėtos prieigos, praradimo ar pakeitimo."
+   }
+  ],
+  "cookies": [
+   {
+    "title": "Kas yra slapukai",
+    "body": "Slapukai — tai nedideli tekstiniai failai, kuriuos svetainė išsaugo jūsų naršyklėje. Jie padeda svetainei veikti, įsiminti jūsų pasirinkimus ir, jei sutinkate, suprasti, kaip svetainė naudojama."
+   },
+   {
+    "title": "Būtini slapukai",
+    "body": "Reikalingi, kad svetainė veiktų: įsimena pasirinktą kalbą ir jūsų sutikimą dėl slapukų. Šių slapukų išjungti negalima. Saugomi iki 12 mėnesių."
+   },
+   {
+    "title": "Analitiniai slapukai",
+    "body": "Padeda suprasti, kurie puslapiai lankomi ir kaip svetainė naudojama, kad galėtume ją tobulinti. Naudojami tik gavus jūsų sutikimą. [ĮRANKIS, pvz. Google Analytics], saugomi iki [TERMINAS]."
+   },
+   {
+    "title": "Rinkodaros slapukai",
+    "body": "Leidžia rodyti jums aktualius pasiūlymus kitose svetainėse ir matuoti reklamos efektyvumą. Naudojami tik gavus jūsų sutikimą. [ĮRANKIS, pvz. Meta Pixel], saugomi iki [TERMINAS]."
+   },
+   {
+    "title": "Kaip valdyti slapukus",
+    "body": "Savo pasirinkimą galite bet kada pakeisti paspaudę mygtuką žemiau. Slapukus taip pat galite ištrinti ar blokuoti savo naršyklės nustatymuose — tačiau tuomet dalis svetainės funkcijų gali neveikti."
+   }
+  ]
+ },
+ "en": {
+  "updated": "Last updated: 2 November 2026",
+  "privacy": [
+   {
+    "title": "Who we are",
+    "body": "The data controller is [COMPANY NAME], company code [CODE], Fabriko g. 12, Lentvaris (trading as “Loga group”). Contact: +370 641 23788, dalys@loga.lt."
+   },
+   {
+    "title": "What data we collect",
+    "body": "Your name, phone number and email when you submit a form or contact us; details about your car (make, model, year, VIN) and the part you need; the content of messages sent via Viber, WhatsApp or email; technical browsing data (IP address, browser type) — only if you accept the relevant cookies."
+   },
+   {
+    "title": "How we use it",
+    "body": "To answer your requests and call you back; to find and match parts by VIN; to make an offer for buying your car; to fulfil orders and deliveries; to meet our legal obligations (e.g. accounting)."
+   },
+   {
+    "title": "Legal basis",
+    "body": "Entering into and performing a contract (GDPR Art. 6(1)(b)), our legitimate interest in answering enquiries (f), legal obligations (c) and your consent for analytics and marketing cookies (a)."
+   },
+   {
+    "title": "How long we keep it",
+    "body": "Enquiry data — up to 12 months after our last contact; contracts and accounting records — as long as the law requires (usually 10 years)."
+   },
+   {
+    "title": "Who we share it with",
+    "body": "Only as needed to provide the service: couriers and transport companies, IT and website service providers, accounting providers, and public authorities where the law requires. We never sell your data."
+   },
+   {
+    "title": "Your rights",
+    "body": "You may access, correct or delete your data, restrict or object to its processing, receive it in a portable format and withdraw consent at any time. Write to dalys@loga.lt. You can also complain to the State Data Protection Inspectorate of Lithuania (www.vdai.lrv.lt)."
+   },
+   {
+    "title": "Security",
+    "body": "We use technical and organisational measures to protect your data against unauthorised access, loss or alteration."
+   }
+  ],
+  "cookies": [
+   {
+    "title": "What cookies are",
+    "body": "Cookies are small text files that a website stores in your browser. They help the site work, remember your choices and, if you agree, help us understand how the site is used."
+   },
+   {
+    "title": "Necessary cookies",
+    "body": "Required for the site to work: they remember your language and your cookie choice. They cannot be switched off. Kept for up to 12 months."
+   },
+   {
+    "title": "Analytics cookies",
+    "body": "Help us understand which pages are visited and how the site is used so we can improve it. Used only with your consent. [TOOL, e.g. Google Analytics], kept for up to [PERIOD]."
+   },
+   {
+    "title": "Marketing cookies",
+    "body": "Let us show you relevant offers on other websites and measure how well our ads work. Used only with your consent. [TOOL, e.g. Meta Pixel], kept for up to [PERIOD]."
+   },
+   {
+    "title": "Managing cookies",
+    "body": "You can change your choice at any time with the button below. You can also delete or block cookies in your browser settings — but some features of the site may then stop working."
+   }
+  ]
+ },
+ "ru": {
+  "updated": "Обновлено: 2 ноября 2026 г.",
+  "privacy": [
+   {
+    "title": "Кто мы",
+    "body": "Контролёр данных — [НАЗВАНИЕ КОМПАНИИ], код компании [КОД], Fabriko g. 12, Лентварис (торговая марка «Loga group»). Контакты: +370 641 23788, dalys@loga.lt."
+   },
+   {
+    "title": "Какие данные мы собираем",
+    "body": "Имя, номер телефона и e-mail, когда вы заполняете форму или связываетесь с нами; данные об автомобиле (марка, модель, год, VIN) и нужной детали; содержание переписки в Viber, WhatsApp или по e-mail; технические данные просмотра (IP-адрес, тип браузера) — только если вы согласились на соответствующие cookies."
+   },
+   {
+    "title": "Зачем мы их используем",
+    "body": "Чтобы ответить на запрос и перезвонить; подобрать и сверить детали по VIN; сделать предложение о выкупе авто; выполнить заказ и доставку; выполнить требования закона (например, бухгалтерский учёт)."
+   },
+   {
+    "title": "Правовое основание",
+    "body": "Заключение и исполнение договора (ст. 6(1)(b) GDPR), наш законный интерес отвечать на запросы (f), юридическая обязанность (c) и ваше согласие — для аналитических и маркетинговых cookies (a)."
+   },
+   {
+    "title": "Сколько храним",
+    "body": "Данные запросов — до 12 месяцев после последнего контакта; договоры и бухгалтерские документы — столько, сколько требует закон (обычно 10 лет)."
+   },
+   {
+    "title": "Кому передаём",
+    "body": "Только в объёме, необходимом для услуги: курьерам и транспортным компаниям, поставщикам IT-услуг и обслуживания сайта, бухгалтерии, государственным органам — если этого требует закон. Мы не продаём ваши данные."
+   },
+   {
+    "title": "Ваши права",
+    "body": "Вы можете получить доступ к своим данным, исправить или удалить их, ограничить обработку или возразить против неё, получить данные в переносимом формате и в любой момент отозвать согласие. Пишите на dalys@loga.lt. Также можно подать жалобу в Государственную инспекцию по защите данных Литвы (www.vdai.lrv.lt)."
+   },
+   {
+    "title": "Безопасность",
+    "body": "Мы применяем технические и организационные меры, чтобы защитить данные от несанкционированного доступа, потери или изменения."
+   }
+  ],
+  "cookies": [
+   {
+    "title": "Что такое cookies",
+    "body": "Cookies — это небольшие текстовые файлы, которые сайт сохраняет в вашем браузере. Они помогают сайту работать, запоминают ваш выбор и, если вы согласны, помогают понять, как используется сайт."
+   },
+   {
+    "title": "Необходимые cookies",
+    "body": "Нужны для работы сайта: запоминают выбранный язык и ваш выбор по cookies. Отключить их нельзя. Хранятся до 12 месяцев."
+   },
+   {
+    "title": "Аналитические cookies",
+    "body": "Помогают понять, какие страницы посещают и как используется сайт, чтобы мы могли его улучшать. Используются только с вашего согласия. [ИНСТРУМЕНТ, напр. Google Analytics], хранятся до [СРОК]."
+   },
+   {
+    "title": "Маркетинговые cookies",
+    "body": "Позволяют показывать вам актуальные предложения на других сайтах и оценивать эффективность рекламы. Используются только с вашего согласия. [ИНСТРУМЕНТ, напр. Meta Pixel], хранятся до [СРОК]."
+   },
+   {
+    "title": "Как управлять cookies",
+    "body": "Изменить выбор можно в любой момент кнопкой ниже. Также cookies можно удалить или заблокировать в настройках браузера — но тогда часть функций сайта может не работать."
+   }
+  ]
+ }
+}

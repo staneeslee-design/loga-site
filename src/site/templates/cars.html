@@ -1,0 +1,365 @@
+
+<div style="font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #2a2a2d; background: #ffffff; font-size: 16px; line-height: 24px; position: relative">
+<!-- HEADER (shared) -->
+<div class="{{hdrFade}}" style="position: sticky; top: 0; z-index: 50; padding: 12px 0; pointer-events: none">
+<div class="wrap" style="pointer-events: auto">
+<header class="{{hdrCls}}" style="height: 72px; background: #ffffff; border-radius: 9999px; box-shadow: rgba(56,60,67,0.05) 0px 0px 0px 1px, rgba(56,60,67,0.15) 0px 1px 3px 0px; display: flex; align-items: center; gap: 12px; padding: 0 8px 0 22px">
+<a href="{{home}}" aria-label="{{L.k11}}" style="display: flex; align-items: center; flex-shrink: 0">
+<img class="logo-dark" src="/site/logo.svg" alt="{{L.k12}}" style="height: 40px; width: auto; display: block"><img class="logo-light" src="/site/logo-light.svg" alt="{{L.k12}}" style="height: 40px; width: auto; display: block">
+</a>
+<nav class="nav-links" aria-label="{{L.k13}}" style="display: flex; align-items: center; gap: 22px; margin-left: 20px">
+<a class="navlink" href="{{base}}/automobiliai" style="color: {{accent}}">{{L.k7}}</a>
+<a class="navlink" href="{{base}}/varikliai">{{L.k8}}</a>
+<a class="navlink" href="{{home}}">{{L.k9}}</a>
+<a class="navlink" href="#kontaktai">{{L.k10}}</a>
+</nav>
+<div style="flex: 1"></div>
+<a href="{{S.telHref}}" class="hide-sm" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: #2a2a2d; font: 500 15px/24px Inter, sans-serif; padding: 0 8px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
++370 641 23788
+</a>
+<div style="position: relative; flex-shrink: 0">
+<button type="button" onClick="{{toggleDd}}" aria-haspopup="listbox" aria-expanded="{{ddExp}}" aria-label="{{L.kLang}}" class="btn ghost lang-dd" style="height: 44px; padding: 0 12px 0 10px; border-radius: 9999px; background: #f1f1f3; color: #2a2a2d; font-size: 14px; font-weight: 700; letter-spacing: 0.03em; gap: 8px"><sc-if value="{{cur.isLT}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="33" height="22" viewBox="0 0 3 2" aria-hidden="true" style="display: block; margin-left: -5.5px"><rect width="3" height="0.667" fill="#FDB913"></rect><rect y="0.667" width="3" height="0.667" fill="#006A44"></rect><rect y="1.333" width="3" height="0.667" fill="#C1272D"></rect></svg></span></sc-if><sc-if value="{{cur.isEN}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="44" height="22" viewBox="0 0 60 30" aria-hidden="true" style="display: block; margin-left: -11px"><rect width="60" height="30" fill="#012169"></rect><path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="6"></path><path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2"></path><path d="M30,0 V30 M0,15 H60" stroke="#FFFFFF" stroke-width="10"></path><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"></path></svg></span></sc-if><sc-if value="{{cur.isRU}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="33" height="22" viewBox="0 0 3 2" aria-hidden="true" style="display: block; margin-left: -5.5px"><rect width="3" height="0.667" fill="#FFFFFF"></rect><rect y="0.667" width="3" height="0.667" fill="#0039A6"></rect><rect y="1.333" width="3" height="0.667" fill="#D52B1E"></rect></svg></span></sc-if>{{cur.label}}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="dd-chev" style="transition: transform .2s; transform: rotate({{ddRot}})"><path d="m6 9 6 6 6-6"></path></svg></button>
+<sc-if value="{{ddOpen}}" hint-placeholder-val="{{false}}">
+<div onClick="{{closeDd}}" aria-hidden="true" style="position: fixed; inset: 0; z-index: 55"></div>
+<div class="pop" role="listbox" aria-label="{{L.kLang}}" style="position: absolute; right: 0; top: calc(100% + 10px); z-index: 60; min-width: 210px; background: #ffffff; border-radius: 18px; border: 1px solid #ececee; box-shadow: 0 18px 50px rgba(0,0,0,0.18); padding: 6px">
+<sc-for list="{{langs}}" as="lg" hint-placeholder-count="3">
+<button type="button" role="option" aria-selected="{{lg.sel}}" onClick="{{lg.pick}}" class="btn ddopt" style="width: 100%; justify-content: flex-start; gap: 12px; height: 48px; padding: 0 12px; border-radius: 12px; background: {{lg.bg}}; color: #2a2a2d; font-size: 15px; font-weight: {{lg.fw}}"><sc-if value="{{lg.isLT}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="33" height="22" viewBox="0 0 3 2" aria-hidden="true" style="display: block; margin-left: -5.5px"><rect width="3" height="0.667" fill="#FDB913"></rect><rect y="0.667" width="3" height="0.667" fill="#006A44"></rect><rect y="1.333" width="3" height="0.667" fill="#C1272D"></rect></svg></span></sc-if><sc-if value="{{lg.isEN}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="44" height="22" viewBox="0 0 60 30" aria-hidden="true" style="display: block; margin-left: -11px"><rect width="60" height="30" fill="#012169"></rect><path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="6"></path><path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="2"></path><path d="M30,0 V30 M0,15 H60" stroke="#FFFFFF" stroke-width="10"></path><path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"></path></svg></span></sc-if><sc-if value="{{lg.isRU}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 9999px; overflow: hidden; flex-shrink: 0; display: inline-block; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.08)"><svg width="33" height="22" viewBox="0 0 3 2" aria-hidden="true" style="display: block; margin-left: -5.5px"><rect width="3" height="0.667" fill="#FFFFFF"></rect><rect y="0.667" width="3" height="0.667" fill="#0039A6"></rect><rect y="1.333" width="3" height="0.667" fill="#D52B1E"></rect></svg></span></sc-if><span>{{lg.name}}</span><span style="margin-left: auto; font: 600 12px/16px Inter, sans-serif; color: #8a8a90">{{lg.label}}</span><span aria-hidden="true" style="width: 20px; text-align: right; color: {{accent}}; font-weight: 800; opacity: {{lg.chk}}">✓</span></button>
+</sc-for>
+</div>
+</sc-if>
+</div>
+<button type="button" onClick="{{toggleMm}}" aria-label="{{L.kOpenMenu}}" aria-expanded="{{mmExp}}" class="btn mm-btn" style="display: none; width: 44px; height: 44px; border-radius: 9999px; background: transparent; color: #2a2a2d; flex-shrink: 0"><sc-if value="{{mmClosed}}" hint-placeholder-val="{{true}}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></sc-if><sc-if value="{{mmOpen}}" hint-placeholder-val="{{false}}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></sc-if></button>
+</header>
+</div>
+</div>
+
+
+<sc-if value="{{isList}}" hint-placeholder-val="{{true}}">
+<section class="a1" style="padding: 24px 0 8px">
+<div class="wrap">
+<nav aria-label="{{L.k17}}" style="display: flex; align-items: center; gap: 8px; font: 400 14px/20px Inter, sans-serif; color: #4f5054">
+<a href="{{home}}" style="color: #4f5054">{{L.k14}}</a><span aria-hidden="true">/</span><span style="color: #2a2a2d">{{L.k7}}</span>
+</nav>
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-top: 18px">
+<div>
+<p style="margin: 0; font: 600 14px/21px Inter, sans-serif; color: {{accent}}">{{L.k15}}</p>
+<h1 class="h1" style="margin: 8px 0 0; font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: -0.03em">{{L.k7}} <span style="color: {{accent}}">{{total}}</span></h1>
+<p style="margin: 10px 0 0; color: #4f5054; max-width: 560px">{{L.k16}}</p>
+</div>
+<div style="position: relative; width: 100%; max-width: 380px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4f5054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; left: 18px; top: 17px"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+<input class="inp" type="search" aria-label="{{L.k22}}" placeholder="{{L.k23}}" value="{{q}}" onInput="{{setQ}}" style="padding-left: 46px">
+</div>
+</div>
+<div class="fbar" style="margin-top: 24px; padding: 0 0 20px; border-bottom: 1px solid #ececee">
+<div class="fbar-row">
+<div class="chips-scroll" role="group" aria-label="{{L.k24}}" style="display: flex; gap: 8px; flex-wrap: wrap; flex: 1; min-width: 0">
+<sc-for list="{{makes}}" as="m" hint-placeholder-count="8">
+<button type="button" onClick="{{m.pick}}" aria-pressed="{{m.sel}}" class="btn chip mchip" style="flex-shrink: 0; height: 42px; padding: 0 6px 0 16px; border-radius: 9999px; background: {{m.bg}}; color: {{m.fg}}; border: 1px solid {{m.bd}}; font-size: 14px; font-weight: 600">{{m.label}}<span style="min-width: 26px; height: 28px; padding: 0 8px; border-radius: 9999px; background: {{m.nbg}}; color: {{m.nfg}}; display: inline-flex; align-items: center; justify-content: center; font: 600 12px/14px Inter, sans-serif">{{m.n}}</span></button>
+</sc-for>
+</div>
+<label class="sort-desk" style="display: inline-flex; align-items: center; gap: 8px; font: 500 14px/20px Inter, sans-serif; color: #4f5054">{{L.k18}}
+<span style="position: relative; display: inline-block">
+<select value="{{sort}}" onChange="{{setSort}}" style="height: 42px; padding: 0 38px 0 16px; border-radius: 9999px; border: 1px solid #e2e2e4; background: #ffffff; font: 600 14px/20px Inter, sans-serif; color: #2a2a2d; -webkit-appearance: none; appearance: none; cursor: pointer">
+<option value="new">{{L.k19}}</option><option value="old">{{L.k20}}</option><option value="az">{{L.k21}}</option>
+</select>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2a2a2d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: 14px; top: 14px; pointer-events: none"><path d="m6 9 6 6 6-6"></path></svg>
+</span>
+</label>
+</div>
+<div class="mob-bar" style="display: none; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px">
+<span style="font: 500 14px/20px Inter, sans-serif; color: #4f5054">{{L.k25}} <strong style="color: #2a2a2d">{{found}}</strong></span>
+<button type="button" onClick="{{openSheet}}" class="btn" style="height: 40px; padding: 0 14px; border-radius: 9999px; background: #2a2a2d; color: #ffffff; font-size: 14px; font-weight: 600"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h13M3 12h9M3 18h5M17 8V20M17 20l-3-3M17 20l3-3"></path></svg>{{sortLabel}}</button>
+</div>
+</div>
+</div>
+</section>
+<sc-if value="{{sheet}}" hint-placeholder-val="{{false}}">
+<div class="sheet-ovl" onClick="{{closeSheet}}" style="position: fixed; inset: 0; z-index: 130; background: rgba(13,13,12,0.5); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); display: flex; align-items: flex-end; justify-content: center">
+<div class="sheet" role="dialog" aria-modal="true" aria-label="{{L.k18}}" onClick="{{stop}}" style="width: 100%; max-width: 520px; background: #ffffff; border-radius: 28px 28px 0 0; padding: 10px 16px 24px; box-shadow: 0 -20px 60px rgba(0,0,0,0.25)">
+<div aria-hidden="true" style="width: 44px; height: 5px; border-radius: 9999px; background: #d4d4d8; margin: 0 auto 14px"></div>
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 0 8px 10px">
+<span style="font: 700 20px/26px Inter, sans-serif">{{L.k18}}</span>
+<button type="button" onClick="{{closeSheet}}" aria-label="{{L.kClose}}" class="btn" style="width: 40px; height: 40px; border-radius: 9999px; background: #f1f1f3; color: #2a2a2d"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+</div>
+<sc-for list="{{sortOpts}}" as="o" hint-placeholder-count="3">
+<button type="button" onClick="{{o.pick}}" aria-pressed="{{o.sel}}" class="btn sopt" style="width: 100%; justify-content: space-between; height: 58px; padding: 0 16px; border-radius: 16px; background: {{o.bg}}; color: #2a2a2d; font-size: 16px; font-weight: {{o.fw}}; margin-top: 6px">{{o.label}}<span style="width: 26px; height: 26px; border-radius: 9999px; border: 2px solid {{o.ring}}; background: {{o.dot}}; display: inline-flex; align-items: center; justify-content: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span></button>
+</sc-for>
+</div>
+</div>
+</sc-if>
+<section style="padding: 28px 0 96px">
+<div class="wrap">
+<div class="grid-cards">
+<sc-for list="{{items}}" as="c" hint-placeholder-count="6">
+<div class="card">
+<button type="button" class="card-hit" onClick="{{c.open}}" aria-label="{{c.t}} {{L.k28}}">
+<span style="position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; background: #e9e9eb">
+<img src="{{c.cover}}" alt="{{c.t}}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<sc-if value="{{c.hasVer}}" hint-placeholder-val="{{false}}"><span style="position: absolute; left: 14px; bottom: 14px; display: inline-flex; align-items: center; gap: 6px; background: {{c.verBg}}; color: #ffffff; font: 700 11px/14px Inter, sans-serif; letter-spacing: 0.05em; padding: 6px 11px; border-radius: 9999px; box-shadow: 0 6px 16px rgba(0,0,0,0.28); pointer-events: none"><span style="width: 6px; height: 6px; border-radius: 9999px; background: {{c.verDot}}"></span>{{c.ver}}</span></sc-if>
+<sc-if value="{{c.hasTag}}" hint-placeholder-val="{{false}}"><span style="position: absolute; left: 14px; top: 14px; background: {{accent}}; color: #ffffff; font: 600 12px/16px Inter, sans-serif; padding: 5px 11px; border-radius: 9999px">{{c.tag}}</span></sc-if>
+<span style="position: absolute; right: 14px; top: 14px; background: rgba(13,13,12,0.62); color: #ffffff; font: 500 12px/16px Inter, sans-serif; padding: 5px 10px; border-radius: 9999px">{{c.pc}} {{L.k26}}</span>
+</span>
+<span style="display: flex; flex-direction: column; flex: 1; width: 100%; padding: 18px 20px 20px">
+<span style="font: 500 12px/16px Inter, sans-serif; color: #4f5054; letter-spacing: 0.04em; text-transform: uppercase">{{c.sub}}</span>
+<span style="font: 700 19px/25px Inter, sans-serif; margin-top: 6px; letter-spacing: -0.01em">{{c.t}}</span>
+<span style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px">
+<sc-for list="{{c.chips}}" as="x" hint-placeholder-count="3"><span style="background: #f1f1f3; border-radius: 9999px; padding: 3px 10px; font: 500 12px/18px Inter, sans-serif">{{x}}</span></sc-for>
+</span>
+</span>
+</button>
+<div class="card-foot">
+<button type="button" onClick="{{c.open}}" class="card-link">{{L.k27}}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></button>
+<button type="button" onClick="{{c.ask}}" class="btn askb" style="height: 40px; padding: 0 16px; gap: 7px; border-radius: 9999px; background: {{accent}}; color: #ffffff; font-size: 14px; font-weight: 600; flex-shrink: 0; box-shadow: 0 8px 18px {{accentShadow}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 9h8M8 13h5"></path></svg>{{L.k29}}</button>
+</div>
+</div>
+</sc-for>
+</div>
+<sc-if value="{{none}}" hint-placeholder-val="{{false}}">
+<div style="text-align: center; padding: 64px 16px; background: #f7f7f8; border-radius: 24px">
+<div style="font: 700 22px/28px Inter, sans-serif">{{L.k30}}</div>
+<p style="margin: 8px 0 0; color: #4f5054">{{L.k31}}</p>
+<button type="button" onClick="{{clearF}}" class="btn" style="margin-top: 18px; height: 46px; padding: 0 22px; border-radius: 9999px; background: #2a2a2d; color: #ffffff; font-size: 15px; font-weight: 600">{{L.k32}}</button>
+</div>
+</sc-if>
+</div>
+</section>
+</sc-if>
+
+<sc-if value="{{isDetail}}" hint-placeholder-val="{{false}}">
+<section class="pop" style="padding: 24px 0 96px">
+<div class="wrap">
+<nav aria-label="{{L.k17}}" style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font: 400 14px/20px Inter, sans-serif; color: #4f5054">
+<button type="button" onClick="{{back}}" class="btn ghost" style="height: 34px; padding: 0 14px; border-radius: 9999px; border: 1px solid #e2e2e4; background: #ffffff; color: #2a2a2d; font-size: 14px; font-weight: 500">{{L.k33}}</button>
+<a href="{{home}}" style="color: #4f5054">{{L.k14}}</a><span aria-hidden="true">/</span>
+<button type="button" onClick="{{back}}" style="padding: 0; border: 0; background: transparent; cursor: pointer; font: inherit; color: #4f5054; text-decoration: underline">{{L.k7}}</button><span aria-hidden="true">/</span>
+<span style="color: #2a2a2d">{{d.title}}</span>
+</nav>
+<div style="margin-top: 20px">
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+<span style="font: 600 14px/21px Inter, sans-serif; color: {{accent}}">{{L.k34}} {{d.make}}</span>
+</div>
+<h1 class="h1" style="margin: 8px 0 0; font-size: 40px; line-height: 50px; font-weight: 700; letter-spacing: -0.025em">{{d.title}}</h1>
+</div>
+<div class="top-grid" style="margin-top: 28px">
+<div style="min-width: 0">
+<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 24px; overflow: hidden; background: #e9e9eb">
+<button type="button" onClick="{{openLb}}" aria-label="{{d.title}} — {{d.no}} / {{d.pc}}" style="position: absolute; inset: 0; padding: 0; border: 0; background: transparent; cursor: zoom-in; overflow: hidden; display: block; width: 100%">
+<img src="{{d.cur}}" alt="{{d.title}}" decoding="async" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block">
+</button>
+<sc-if value="{{d.hasVer}}" hint-placeholder-val="{{false}}"><span style="position: absolute; left: 16px; bottom: 30px; display: inline-flex; align-items: center; gap: 6px; background: {{d.verBg}}; color: #ffffff; font: 700 11px/14px Inter, sans-serif; letter-spacing: 0.05em; padding: 6px 11px; border-radius: 9999px; box-shadow: 0 6px 16px rgba(0,0,0,0.28); pointer-events: none"><span style="width: 6px; height: 6px; border-radius: 9999px; background: {{d.verDot}}"></span>{{d.ver}}</span></sc-if>
+<sc-if value="{{d.hasTag}}" hint-placeholder-val="{{false}}"><span style="position: absolute; left: 16px; top: 16px; background: {{accent}}; color: #ffffff; font: 600 12px/16px Inter, sans-serif; padding: 6px 12px; border-radius: 9999px; pointer-events: none">{{d.tag}}</span></sc-if>
+<span style="position: absolute; right: 16px; top: 16px; background: rgba(13,13,12,0.62); color: #ffffff; font: 600 12px/16px Inter, sans-serif; padding: 6px 12px; border-radius: 9999px; pointer-events: none; display: inline-flex; align-items: center; gap: 6px"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"></path></svg>{{d.no}} / {{d.pc}}</span>
+<button type="button" onClick="{{prev}}" aria-label="{{L.k35}}" class="btn" style="position: absolute; left: 16px; top: 50%; margin-top: -24px; width: 48px; height: 48px; border-radius: 9999px; background: #ffffff; color: #2a2a2d; box-shadow: 0 6px 18px rgba(0,0,0,0.18)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button type="button" onClick="{{next}}" aria-label="{{L.k36}}" class="btn" style="position: absolute; right: 16px; top: 50%; margin-top: -24px; width: 48px; height: 48px; border-radius: 9999px; background: #ffffff; color: #2a2a2d; box-shadow: 0 6px 18px rgba(0,0,0,0.18)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+<span aria-hidden="true" style="position: absolute; left: 16px; right: 16px; bottom: 14px; height: 3px; border-radius: 3px; background: rgba(255,255,255,0.35); overflow: hidden; pointer-events: none"><span style="display: block; height: 100%; width: {{d.prog}}; background: #ffffff; border-radius: 3px; transition: width .35s"></span></span>
+</div>
+<div class="thumbrow" style="display: flex; gap: 10px; margin-top: 10px; overflow-x: auto; padding: 4px 2px 8px; scroll-snap-type: x proximity">
+<sc-for list="{{d.thumbs}}" as="t" hint-placeholder-count="6">
+<button type="button" onClick="{{t.pick}}" aria-label="{{L.k42}} {{t.n}}" aria-pressed="{{t.sel}}" class="thumb" style="position: relative; flex: 0 0 auto; width: 112px; aspect-ratio: 4 / 3; padding: 0; border: 0; background: #e9e9eb; border-radius: 12px; overflow: hidden; opacity: {{t.op}}; box-shadow: {{t.ring}}; scroll-snap-align: start"><img src="{{t.src}}" alt="" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"></button>
+</sc-for>
+</div>
+<h2 style="margin: 48px 0 0; font-size: 24px; line-height: 31px; font-weight: 700; letter-spacing: -0.01em">{{L.k37}}</h2>
+<p style="margin: 12px 0 0; color: #4f5054; max-width: 660px; white-space: pre-line">{{d.desc}}</p>
+</div>
+<div class="sticky-col">
+<div style="background: #ffffff; border: 1px solid #e2e2e4; border-radius: 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.10); overflow: hidden">
+<div style="padding: 22px 24px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px">
+<h2 style="margin: 0; font-size: 22px; line-height: 30px; font-weight: 700; letter-spacing: -0.01em">{{L.k38}}</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding: 0 24px 16px">
+<sc-for list="{{d.facts}}" as="f" hint-placeholder-count="3">
+<div style="background: #f7f7f8; border-radius: 14px; padding: 10px 8px; text-align: center"><div style="font: 700 17px/22px Inter, sans-serif; letter-spacing: -0.01em">{{f.v}}</div><div style="font: 500 11px/14px Inter, sans-serif; color: #4f5054; margin-top: 2px">{{f.k}}</div></div>
+</sc-for>
+</div>
+<dl style="margin: 0; border-top: 1px solid #ececee">
+<sc-for list="{{d.specs}}" as="sp" hint-placeholder-count="8">
+<div class="row" style="display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 11px 24px; border-bottom: 1px solid #f1f1f3; transition: background-color .15s">
+<dt style="font: 400 14px/20px Inter, sans-serif; color: #4f5054">{{sp.k}}</dt>
+<dd style="margin: 0; font: 600 15px/20px Inter, sans-serif; text-align: right; overflow-wrap: anywhere">{{sp.v}}</dd>
+</div>
+</sc-for>
+</dl>
+<sc-if value="{{d.hasVin}}" hint-placeholder-val="{{true}}">
+<div style="padding: 16px 24px 20px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #2a2a2d; color: #ffffff; border-radius: 16px; padding: 12px 12px 12px 16px">
+<div style="min-width: 0"><div style="font: 500 11px/14px Inter, sans-serif; color: rgba(255,255,255,0.7); letter-spacing: 0.06em; text-transform: uppercase">{{L.k39}}</div><div style="font: 600 15px/22px Inter, sans-serif; letter-spacing: 0.05em; margin-top: 2px; overflow: hidden; text-overflow: ellipsis">{{d.vin}}</div></div>
+<button type="button" onClick="{{copyVin}}" class="btn" style="flex-shrink: 0; height: 38px; padding: 0 14px; border-radius: 9999px; background: {{copyBg}}; color: #ffffff; font-size: 13px; font-weight: 600">{{copyLabel}}</button>
+</div>
+</div>
+</sc-if>
+</div>
+<div style="margin-top: 14px; background: #f7f7f8; border-radius: 20px; padding: 18px 20px">
+<div style="font: 600 15px/22px Inter, sans-serif">{{L.k40}}</div>
+<div style="font: 400 14px/20px Inter, sans-serif; color: #4f5054; margin-top: 2px">{{L.k41}}</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px">
+<a href="{{S.telHref}}" class="btn" style="grid-column: 1 / -1; height: 52px; border-radius: 9999px; background: {{accent}}; color: #ffffff; font-size: 15px; font-weight: 600; box-shadow: 0 10px 24px {{accentShadow}}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>{{S.phone}}</a>
+<a href="{{S.viberHref}}" class="btn ghost" style="height: 46px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d; font-size: 14px; font-weight: 600"><img src="/site/viber.png" alt="" style="width: 24px; height: 24px">Viber</a>
+<a href="{{S.waHref}}" class="btn ghost" style="height: 46px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d; font-size: 14px; font-weight: 600"><img src="/site/whatsapp.png" alt="" style="width: 24px; height: 24px">WhatsApp</a>
+</div>
+<div style="font: 400 12px/16px Inter, sans-serif; color: #4f5054; margin-top: 10px; text-align: center">{{L.k43}}</div>
+</div>
+</div>
+</div>
+
+<div style="margin-top: 88px">
+<div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap">
+<div><p style="margin: 0; font: 600 14px/21px Inter, sans-serif; color: {{accent}}">{{L.k44}}</p><h2 style="margin: 8px 0 0; font-size: 36px; line-height: 44px; font-weight: 700; letter-spacing: -0.02em">{{L.k45}}</h2></div>
+<button type="button" onClick="{{back}}" class="btn ghost" style="height: 48px; padding: 0 24px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d; font-size: 15px; font-weight: 600">{{L.k46}}</button>
+</div>
+<div class="grid-cards" style="margin-top: 32px">
+<sc-for list="{{similar}}" as="c" hint-placeholder-count="3">
+<div class="card">
+<button type="button" class="card-hit" onClick="{{c.open}}" aria-label="{{c.t}} {{L.k28}}">
+<span style="position: relative; display: block; width: 100%; aspect-ratio: 16 / 10; overflow: hidden; background: #e9e9eb"><img src="{{c.cover}}" alt="{{c.t}}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block"><sc-if value="{{c.hasVer}}" hint-placeholder-val="{{false}}"><span style="position: absolute; left: 14px; bottom: 14px; display: inline-flex; align-items: center; gap: 6px; background: {{c.verBg}}; color: #ffffff; font: 700 11px/14px Inter, sans-serif; letter-spacing: 0.05em; padding: 6px 11px; border-radius: 9999px; box-shadow: 0 6px 16px rgba(0,0,0,0.28); pointer-events: none"><span style="width: 6px; height: 6px; border-radius: 9999px; background: {{c.verDot}}"></span>{{c.ver}}</span></sc-if></span>
+<span style="display: block; width: 100%; padding: 16px 18px 18px"><span style="display: block; font: 500 12px/16px Inter, sans-serif; color: #4f5054; letter-spacing: 0.04em; text-transform: uppercase">{{c.sub}}</span><span style="display: block; font: 700 18px/24px Inter, sans-serif; margin-top: 6px">{{c.t}}</span></span>
+</button>
+<div class="card-foot" style="margin: 0 18px; padding-bottom: 18px">
+<button type="button" onClick="{{c.open}}" class="card-link">{{L.k27}}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></button>
+<button type="button" onClick="{{c.ask}}" class="btn askb" style="height: 40px; padding: 0 16px; gap: 7px; border-radius: 9999px; background: {{accent}}; color: #ffffff; font-size: 14px; font-weight: 600; flex-shrink: 0; box-shadow: 0 8px 18px {{accentShadow}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 9h8M8 13h5"></path></svg>{{L.k29}}</button>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+</div>
+</section>
+</sc-if>
+
+<!-- FOOTER -->
+<footer id="kontaktai" style="background: #0d0d0c; color: #d4d4d4; padding: 96px 0 120px; font-size: 15px; line-height: 22px">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<img src="/site/logo-light.svg" alt="{{L.k12}}" style="height: 40px; width: auto; display: block">
+<p style="margin: 20px 0 0; max-width: 320px">{{L.k47}}</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="font: 600 15px/22px Inter, sans-serif; color: #ffffff; margin-bottom: 4px">{{L.k10}}</div>
+<a class="flink" href="{{S.telHref}}">{{S.phone}}</a>
+<a class="flink" href="{{S.mailHref}}">{{S.email}}</a>
+<a class="flink" href="{{S.viberHref}}">Viber</a>
+<a class="flink" href="{{S.waHref}}">WhatsApp</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="font: 600 15px/22px Inter, sans-serif; color: #ffffff; margin-bottom: 4px">{{L.k48}}</div>
+<span>{{L.k49}}</span>
+<span>{{L.k50}}</span>
+<span>{{S.address}}</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="font: 600 15px/22px Inter, sans-serif; color: #ffffff; margin-bottom: 4px">{{L.k51}}</div>
+<a class="flink" href="{{base}}/automobiliai">{{L.k7}}</a>
+<a class="flink" href="{{base}}/varikliai">{{L.k8}}</a>
+<a class="flink" href="{{home}}">{{L.k52}}</a>
+<a class="flink" href="{{home}}">{{L.k53}}</a>
+</div>
+</div>
+<div style="margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 14px; color: #a3a3a3">
+<span>© 2026 Loga group</span>
+<span><a class="flink" href="{{base}}/privatumas#privatumas" onClick="{{goLegalP}}">{{L.k54}}</a> · <a class="flink" href="{{base}}/privatumas#slapukai" onClick="{{goLegalS}}">{{L.k55}}</a></span>
+</div>
+</div>
+</footer>
+
+
+<sc-if value="{{lb}}" hint-placeholder-val="{{false}}">
+<div role="dialog" aria-modal="true" aria-label="{{d.title}}" class="lbx">
+<div class="lb-bg" onClick="{{closeLb}}" aria-hidden="true"></div>
+<div class="lb-box">
+<div class="lb-top">
+<span class="lb-title">{{d.title}}</span>
+<span class="lb-count">{{d.no}} / {{d.pc}}</span>
+<button type="button" onClick="{{closeLb}}" aria-label="{{L.kClose}}" class="btn lb-close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+</div>
+<div class="lb-stage" onTouchStart="{{tStart}}" onTouchEnd="{{tEnd}}">
+<div class="lb-frame">
+<img src="{{d.big}}" alt="{{d.title}} — {{d.no}}" decoding="async" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block">
+</div>
+<button type="button" onClick="{{prev}}" aria-label="{{L.k35}}" class="btn lb-arrow lb-prev"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button type="button" onClick="{{next}}" aria-label="{{L.k36}}" class="btn lb-arrow lb-next"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+</div>
+<div class="lb-thumbs thumbrow">
+<sc-for list="{{d.thumbs}}" as="t" hint-placeholder-count="6">
+<button type="button" onClick="{{t.pick}}" aria-label="{{L.k42}} {{t.n}}" aria-pressed="{{t.sel}}" class="thumb lb-thumb" style="opacity: {{t.op}}; box-shadow: {{t.ring}}"><img src="{{t.src}}" alt="" loading="lazy" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover"></button>
+</sc-for>
+</div>
+</div>
+</div>
+</sc-if><sc-if value="{{askOpen}}" hint-placeholder-val="{{false}}">
+<div class="lbx" style="padding: 16px">
+<div class="ask-bg" onClick="{{closeAsk}}" aria-hidden="true"></div>
+<div class="ask-box" role="dialog" aria-modal="true" aria-label="{{L.k56}}">
+<button type="button" onClick="{{closeAsk}}" aria-label="{{L.kClose}}" class="btn ghost" style="position: absolute; right: 14px; top: 14px; width: 40px; height: 40px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+<sc-if value="{{askNotSent}}" hint-placeholder-val="{{true}}">
+<p style="margin: 0; font: 600 14px/21px Inter, sans-serif; color: {{accent}}">{{L.k57}}</p>
+<h3 style="margin: 6px 0 0; font-size: 24px; line-height: 31px; font-weight: 700; letter-spacing: -0.01em; padding-right: 44px">{{askCar}}</h3>
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 18px">
+<label class="lbl">{{L.k58}}
+<input class="inp" type="text" placeholder="{{L.k63}}" value="{{askPart}}" onInput="{{setAskPart}}">
+</label>
+<label class="lbl">{{L.k59}}
+<input class="inp" type="tel" placeholder="+370 6__ _____" value="{{askPhone}}" onInput="{{setAskPhone}}">
+</label>
+</div>
+<sc-if value="{{askErr}}" hint-placeholder-val="{{false}}">
+<p role="alert" style="margin: 10px 0 0; font: 500 13px/18px Inter, sans-serif; color: #c2410c">{{L.k60}}</p>
+</sc-if>
+<button type="button" onClick="{{sendAsk}}" class="btn askb" style="width: 100%; margin-top: 18px; height: 50px; border-radius: 9999px; background: {{accent}}; color: #ffffff; font-size: 16px; font-weight: 600; box-shadow: 0 10px 24px {{accentShadow}}">{{L.k61}}</button>
+<p style="margin: 10px 0 0; text-align: center; font: 400 12px/16px Inter, sans-serif; color: #4f5054">{{L.k62}} <a href="{{S.telHref}}" style="color: #2a2a2d; font-weight: 600">{{S.phone}}</a></p>
+</sc-if>
+<sc-if value="{{askSent}}" hint-placeholder-val="{{false}}">
+<div style="text-align: center; padding: 16px 0 8px">
+<div style="width: 64px; height: 64px; margin: 0 auto; border-radius: 9999px; background: {{accent}}; display: flex; align-items: center; justify-content: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div>
+<h3 style="margin: 18px 0 0; font-size: 24px; line-height: 31px; font-weight: 700">{{L.k64}}</h3>
+<p style="margin: 8px 0 0; color: #4f5054">{{L.k65}}</p>
+<button type="button" onClick="{{closeAsk}}" class="btn ghost" style="margin-top: 18px; height: 44px; padding: 0 22px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d; font-size: 15px; font-weight: 600">{{L.kClose}}</button>
+</div>
+</sc-if>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{mmOpen}}" hint-placeholder-val="{{false}}">
+<div class="mm-ovl" onClick="{{closeMm}}" aria-hidden="true" style="position: fixed; inset: 0; z-index: 45; background: rgba(8,8,8,0.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px)"></div>
+<div class="mm-panel" role="dialog" aria-modal="true" aria-label="{{L.kMenu}}" style="position: fixed; left: 12px; right: 12px; top: 88px; z-index: 48; max-height: calc(100vh - 104px); overflow-y: auto; background: #ffffff; border: 1px solid #e2e2e4; border-radius: 20px; box-shadow: 0 16px 40px rgba(56,60,67,0.12); padding: 8px 16px 16px">
+<nav aria-label="{{L.kMenu}}">
+<a href="{{base}}/automobiliai" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif">{{L.k7}}</a>
+<a href="{{base}}/varikliai" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif">{{L.k8}}</a>
+<a href="{{home}}" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif">{{L.k9}}</a>
+<a href="#kontaktai" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif">{{L.k10}}</a>
+<a href="{{S.viberHref}}" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif"><img src="/site/viber.png" alt="" style="width: 24px; height: 24px; display: block">Viber</a>
+<a href="{{S.waHref}}" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 12px 8px; border-bottom: 1px solid #e2e2e4; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif"><img src="/site/whatsapp.png" alt="" style="width: 24px; height: 24px; display: block">WhatsApp</a>
+<a href="{{S.telHref}}" onClick="{{closeMm}}" class="mm-link" style="display: flex; align-items: center; gap: 12px; padding: 16px 8px 12px; text-decoration: none; color: #2a2a2d; font: 500 16px/24px Inter, sans-serif"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>{{S.phone}}</a>
+</nav>
+<a href="{{home}}" onClick="{{ctaPart}}" class="btn" style="width: 100%; margin-top: 8px; height: 52px; border-radius: 16px; background: {{accent}}; color: #ffffff; font-size: 16px; font-weight: 600; box-shadow: 0 10px 24px {{accentShadow}}">{{L.kCta}}</a>
+</div>
+</sc-if>
+<sc-if value="{{ckShow}}" hint-placeholder-val="{{false}}">
+<div class="ck" role="dialog" aria-modal="false" aria-label="{{L.k55}}" style="position: fixed; left: 16px; bottom: 16px; z-index: 170; width: min(460px, calc(100% - 32px)); max-height: calc(100vh - 32px); overflow-y: auto; background: #ffffff; border-radius: 24px; border: 1px solid #ececee; box-shadow: 0 24px 70px rgba(0,0,0,0.25); padding: 22px">
+<div style="display: flex; gap: 14px; align-items: flex-start">
+<span aria-hidden="true" style="flex-shrink: 0; width: 46px; height: 46px; border-radius: 9999px; background: {{accent}}; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 8px 20px {{accentShadow}}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9 4 4 0 0 1-5-5 4 4 0 0 1-4-4z"></path><circle cx="8.5" cy="11.5" r="1"></circle><circle cx="12.5" cy="15.5" r="1"></circle><circle cx="15.5" cy="11" r="0.6"></circle></svg></span>
+<div style="min-width: 0">
+<div style="font: 700 18px/24px Inter, sans-serif; letter-spacing: -0.01em">{{L.k66}}</div>
+<p style="margin: 6px 0 0; font: 400 14px/21px Inter, sans-serif; color: #4f5054">{{L.k67}}</p>
+<a href="{{base}}/privatumas#slapukai" onClick="{{goLegalS}}" style="display: inline-block; margin-top: 6px; font: 600 14px/20px Inter, sans-serif; color: #2a2a2d">{{L.k68}}</a>
+</div>
+</div>
+<sc-if value="{{ckMore}}" hint-placeholder-val="{{false}}">
+<div class="pop" style="margin-top: 14px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; border-top: 1px solid #f1f1f3"><div style="min-width: 0"><div style="font: 600 14px/20px Inter, sans-serif">{{L.k69}}</div><div style="font: 400 13px/18px Inter, sans-serif; color: #4f5054; margin-top: 2px">{{L.k70}}</div></div><span style="font: 600 12px/16px Inter, sans-serif; color: #127a43; background: #e8f6ee; padding: 4px 10px; border-radius: 9999px">{{L.k71}}</span></div><div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; border-top: 1px solid #f1f1f3"><div style="min-width: 0"><div style="font: 600 14px/20px Inter, sans-serif">{{L.k72}}</div><div style="font: 400 13px/18px Inter, sans-serif; color: #4f5054; margin-top: 2px">{{L.k73}}</div></div><button type="button" role="switch" aria-checked="{{ckA}}" aria-label="{{L.k72}}" onClick="{{toggleA}}" style="position: relative; flex-shrink: 0; width: 48px; height: 28px; border-radius: 9999px; border: 0; padding: 0; cursor: pointer; background: {{ckABg}}; transition: background-color .2s"><span style="position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 9999px; background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.25); transform: translateX({{ckAX}}); transition: transform .2s cubic-bezier(.2,.7,.2,1)"></span></button></div><div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; border-top: 1px solid #f1f1f3"><div style="min-width: 0"><div style="font: 600 14px/20px Inter, sans-serif">{{L.k74}}</div><div style="font: 400 13px/18px Inter, sans-serif; color: #4f5054; margin-top: 2px">{{L.k75}}</div></div><button type="button" role="switch" aria-checked="{{ckM}}" aria-label="{{L.k74}}" onClick="{{toggleM}}" style="position: relative; flex-shrink: 0; width: 48px; height: 28px; border-radius: 9999px; border: 0; padding: 0; cursor: pointer; background: {{ckMBg}}; transition: background-color .2s"><span style="position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 9999px; background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.25); transform: translateX({{ckMX}}); transition: transform .2s cubic-bezier(.2,.7,.2,1)"></span></button></div>
+</div>
+</sc-if>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 16px">
+<button type="button" onClick="{{ckNecessary}}" class="btn ghost" style="height: 48px; border-radius: 9999px; background: #ffffff; border: 1px solid #e2e2e4; color: #2a2a2d; font-size: 15px; font-weight: 600">{{L.k76}}</button>
+<button type="button" onClick="{{ckAll}}" class="btn" style="height: 48px; border-radius: 9999px; background: {{accent}}; color: #ffffff; font-size: 15px; font-weight: 600; box-shadow: 0 10px 24px {{accentShadow}}">{{L.k77}}</button>
+</div>
+<sc-if value="{{ckMore}}" hint-placeholder-val="{{false}}">
+<button type="button" onClick="{{ckSave}}" class="btn" style="width: 100%; margin-top: 8px; height: 48px; border-radius: 9999px; background: #2a2a2d; color: #ffffff; font-size: 15px; font-weight: 600">{{L.k78}}</button>
+</sc-if>
+<sc-if value="{{ckLess}}" hint-placeholder-val="{{true}}">
+<button type="button" onClick="{{ckToggleMore}}" style="display: block; width: 100%; margin-top: 10px; padding: 6px; border: 0; background: transparent; cursor: pointer; font: 600 14px/20px Inter, sans-serif; color: #4f5054; text-decoration: underline">{{L.k79}}</button>
+</sc-if>
+</div>
+</sc-if>
+</div>

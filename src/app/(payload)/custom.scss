@@ -1,0 +1,369 @@
+/* ==========================================================================
+   Loga group admin theme — same look as the website (Inter, red accent,
+   pill buttons, soft cards).
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --loga-accent: #e31f25;
+  --loga-accent-dark: #b8171c;
+  --loga-accent-soft: rgba(227, 31, 37, 0.08);
+  --loga-text: #2a2a2d;
+  --loga-muted: #4f5054;
+  --loga-line: #e2e2e4;
+  --font-body: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --style-radius-s: 8px;
+  --style-radius-m: 12px;
+  --style-radius-l: 20px;
+}
+
+html[data-theme='light'] {
+  --theme-bg: #f7f7f8;
+  --theme-input-bg: #ffffff;
+  --theme-text: var(--loga-text);
+  --theme-elevation-0: #ffffff;
+  --theme-elevation-50: #f7f7f8;
+  --theme-elevation-100: #f1f1f3;
+  --theme-elevation-150: #e9e9eb;
+  --theme-elevation-200: #e2e2e4;
+  --theme-elevation-250: #d4d4d8;
+  --theme-elevation-400: #8a8a90;
+  --theme-elevation-500: #6b6b70;
+  --theme-elevation-600: #4f5054;
+  --theme-elevation-800: #2a2a2d;
+  --theme-elevation-900: #1b1b1d;
+  --theme-elevation-1000: #0b0b0c;
+  --theme-success-500: var(--loga-accent);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-family: var(--font-body);
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s !important;
+}
+.btn--style-primary {
+  background: var(--loga-accent) !important;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(227, 31, 37, 0.28);
+  border-color: transparent !important;
+  &:hover:not(:disabled) {
+    background: var(--loga-accent-dark) !important;
+    transform: translateY(-1px);
+  }
+}
+.btn--style-secondary {
+  box-shadow: inset 0 0 0 1px var(--loga-line) !important;
+  background: #fff !important;
+  color: var(--loga-text) !important;
+}
+
+/* ---------- inputs ---------- */
+.field-type input[type='text'],
+.field-type input[type='email'],
+.field-type input[type='number'],
+.field-type input[type='password'],
+.field-type textarea,
+.react-select .rs__control {
+  border-radius: 12px !important;
+  border-color: var(--loga-line) !important;
+  box-shadow: none !important;
+  transition: border-color 0.2s, box-shadow 0.2s !important;
+}
+.field-type input:focus,
+.field-type textarea:focus,
+.react-select .rs__control--is-focused {
+  border-color: var(--loga-text) !important;
+  box-shadow: 0 0 0 4px rgba(227, 31, 37, 0.14) !important;
+}
+.checkbox-input__input input:checked + .checkbox-input__icon,
+.checkbox-input--checked .checkbox-input__icon {
+  background: var(--loga-accent) !important;
+  border-color: var(--loga-accent) !important;
+}
+
+/* ---------- navigation ---------- */
+.nav {
+  background: #fff !important;
+  border-right: 1px solid #ececee;
+}
+.nav-group__toggle {
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 11px !important;
+  color: var(--loga-muted) !important;
+}
+.nav__link {
+  border-radius: 10px;
+  font-weight: 500;
+  transition: background-color 0.15s, color 0.15s;
+  &:hover {
+    background: var(--loga-accent-soft);
+    color: var(--loga-accent);
+  }
+}
+.nav__link.active,
+.nav__link--active,
+a.nav__link[aria-current='page'] {
+  background: var(--loga-accent-soft) !important;
+  color: var(--loga-accent) !important;
+  font-weight: 600;
+}
+.loga-viewsite {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0 6px;
+  padding: 10px 14px;
+  border-radius: 9999px;
+  background: var(--loga-text);
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  width: fit-content;
+  &:hover { background: var(--loga-accent); }
+}
+
+/* ---------- header / cards ---------- */
+.app-header,
+.step-nav {
+  font-weight: 500;
+}
+.collection-list .table table,
+.table table {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #ececee;
+}
+.table tbody tr:hover td {
+  background: #fafafb;
+}
+.card {
+  border-radius: 18px !important;
+  box-shadow: 0 0 0 1px #ececee !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08), 0 0 0 1px #e2e2e4 !important;
+  }
+}
+.pill--style-light,
+.pill {
+  border-radius: 9999px !important;
+}
+
+/* ---------- login ---------- */
+.template-minimal {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(227, 31, 37, 0.12), transparent 60%),
+    radial-gradient(800px 500px at -10% 110%, rgba(42, 42, 45, 0.08), transparent 60%),
+    #f7f7f8 !important;
+}
+.template-minimal__wrap {
+  background: #fff;
+  padding: 40px 36px !important;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.1), 0 0 0 1px #ececee;
+  max-width: 440px !important;
+}
+.loga-login-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  span {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--loga-muted);
+  }
+}
+
+/* ---------- dashboard ---------- */
+.loga-dash {
+  margin-bottom: 36px;
+  h1 { margin: 6px 0 0; font-size: 34px; line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; }
+  h2 { font-size: 18px; margin: 0 0 12px; }
+}
+.loga-dash__hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 28px 32px;
+  border-radius: 24px;
+  color: #fff;
+  background:
+    linear-gradient(115deg, rgba(11, 11, 12, 0.92) 30%, rgba(11, 11, 12, 0.55)),
+    url('/site/hero-warehouse.jpg') center 40% / cover;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+}
+.loga-dash__eyebrow { margin: 0; color: var(--loga-accent); font-weight: 700; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+.loga-dash__sub { margin: 8px 0 0; color: rgba(255, 255, 255, 0.78); max-width: 520px; }
+.loga-btn {
+  display: inline-flex; align-items: center; height: 46px; padding: 0 22px; border-radius: 9999px;
+  background: var(--loga-accent); color: #fff !important; font-weight: 600; text-decoration: none;
+  box-shadow: 0 10px 24px rgba(227, 31, 37, 0.35);
+  &:hover { background: var(--loga-accent-dark); }
+}
+.loga-dash__tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.loga-tile {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px #ececee;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  &:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08), 0 0 0 1px #e2e2e4; }
+  &.is-hot { box-shadow: 0 0 0 2px var(--loga-accent); }
+  &.is-hot .loga-tile__value { color: var(--loga-accent); }
+}
+.loga-tile__main { display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+.loga-tile__value { font-size: 40px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+.loga-tile__label { margin-top: 6px; color: var(--loga-muted); font-weight: 500; }
+.loga-tile__add { font-weight: 600; font-size: 14px; color: var(--loga-accent); text-decoration: none; }
+.loga-dash__list {
+  margin-top: 24px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px #ececee;
+  padding: 20px 22px 10px;
+}
+.loga-inq {
+  display: grid;
+  grid-template-columns: 12px 170px 1fr 150px 130px;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #f1f1f3;
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  &:hover { color: var(--loga-accent); }
+}
+.loga-inq__dot { width: 10px; height: 10px; border-radius: 50%; background: var(--loga-accent);
+  &.is-progress { background: #f5a524; } &.is-done { background: #17a34a; } }
+.loga-inq__type { font-weight: 600; }
+.loga-inq__subj { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--loga-muted); }
+.loga-inq__date { color: #8a8a90; text-align: right; }
+@media (max-width: 900px) {
+  .loga-inq { grid-template-columns: 12px 1fr auto; }
+  .loga-inq__subj, .loga-inq__date { display: none; }
+}
+
+/* ---------- list cover cell ---------- */
+.loga-cover {
+  position: relative;
+  display: inline-block;
+  width: 72px;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f1f1f3;
+  vertical-align: middle;
+  img { width: 100%; height: 100%; object-fit: cover; display: block; }
+}
+.loga-cover__n {
+  position: absolute; right: 4px; bottom: 4px; background: rgba(13, 13, 12, 0.7); color: #fff;
+  font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 9999px;
+}
+
+/* ---------- gallery field ---------- */
+.loga-gallery { margin-bottom: 28px; }
+.loga-gallery__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.loga-gallery__count { font-weight: 600; font-size: 13px; color: var(--loga-muted); background: #f1f1f3; padding: 4px 10px; border-radius: 9999px; }
+.loga-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 12px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 0 0 1px #ececee;
+  transition: box-shadow 0.2s, background-color 0.2s;
+  &.is-drop { box-shadow: 0 0 0 2px var(--loga-accent); background: var(--loga-accent-soft); }
+}
+.loga-ph {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #f1f1f3;
+  cursor: grab;
+  box-shadow: 0 0 0 1px #ececee;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+  img { width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; user-select: none; }
+  &:hover { box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
+  &:hover .loga-ph__tools { opacity: 1; transform: none; }
+  &.is-main { box-shadow: 0 0 0 3px var(--loga-accent); }
+  &.is-drag { opacity: 0.4; transform: scale(0.96); }
+  &.is-over { box-shadow: 0 0 0 3px var(--loga-text); transform: scale(1.03); }
+  &.is-pending { cursor: default; img { opacity: 0.45; filter: grayscale(0.4); } }
+  &.is-error { box-shadow: 0 0 0 2px #c2410c; }
+}
+.loga-ph__n {
+  position: absolute; left: 8px; top: 8px; min-width: 24px; height: 24px; padding: 0 7px; border-radius: 9999px;
+  background: rgba(13, 13, 12, 0.66); color: #fff; font-size: 12px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.loga-ph__main {
+  position: absolute; right: 8px; top: 8px; height: 24px; padding: 0 10px; border-radius: 9999px;
+  background: var(--loga-accent); color: #fff; font-size: 11px; font-weight: 700;
+  display: inline-flex; align-items: center; box-shadow: 0 6px 14px rgba(227, 31, 37, 0.35);
+}
+.loga-ph__tools {
+  position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; gap: 6px; justify-content: center;
+  opacity: 0; transform: translateY(6px); transition: opacity 0.2s, transform 0.2s;
+  button {
+    width: 32px; height: 32px; border-radius: 9999px; border: 0; cursor: pointer;
+    background: rgba(255, 255, 255, 0.95); color: var(--loga-text); font-size: 14px; font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+    &:hover:not(:disabled) { background: var(--loga-accent); color: #fff; }
+    &:disabled { opacity: 0.35; cursor: default; }
+    &.is-del:hover { background: #2a2a2d; }
+  }
+}
+@media (hover: none) { .loga-ph__tools { opacity: 1; transform: none; } }
+.loga-ph__bar {
+  position: absolute; left: 10px; right: 10px; bottom: 12px; height: 6px; border-radius: 6px; background: rgba(255, 255, 255, 0.7); overflow: hidden;
+  span { display: block; height: 100%; background: var(--loga-accent); transition: width 0.2s; }
+}
+.loga-ph__status { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font-weight: 700; font-size: 13px; }
+.loga-ph__loading { position: absolute; inset: 0; background: linear-gradient(90deg, #f1f1f3, #e9e9eb, #f1f1f3); background-size: 200% 100%; animation: logaShimmer 1.2s infinite; }
+@keyframes logaShimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+.loga-gallery__add {
+  aspect-ratio: 4 / 3; border-radius: 14px; border: 2px dashed #d4d4d8; background: #fafafb; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: var(--loga-muted);
+  font-family: inherit; transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+  strong { color: var(--loga-text); font-size: 14px; }
+  span { font-size: 12px; }
+  svg { color: var(--loga-accent); }
+  &:hover { border-color: var(--loga-accent); background: var(--loga-accent-soft); }
+}
+
+/* ---------- secret field ---------- */
+.loga-secret__row {
+  display: flex; gap: 8px;
+  input { flex: 1; height: 40px; padding: 0 14px; border: 1px solid var(--loga-line); border-radius: 12px; font: inherit; background: #fff; }
+  button { border: 0; border-radius: 9999px; padding: 0 16px; background: #f1f1f3; font-weight: 600; cursor: pointer; font-family: inherit; }
+}
